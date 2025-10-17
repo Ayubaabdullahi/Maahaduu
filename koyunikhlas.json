@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Menene ma'anar Ikhlas a shari'a?",
+    "answer": "Kwatanta niyya ga Allah kawai a cikin dukkan ayyukan ibada."
+  },
+  {
+    "question": "Menene asalin ginshiƙin koyon Al-Qur'ani?",
+    "answer": "Asalinsa shine **Ikhlas** ga Allah Madaukakin Sarki."
+  },
+  {
+    "question": "Me yasa ake buƙatar Ikhlas a haddar Qur'ani?",
+    "answer": "Domin Allah ya karɓi aikin, kuma a samu cikakken lada."
+  },
+  {
+    "question": "Menene hukuncin rashin Ikhlas a kowane aiki?",
+    "answer": "Aikin zai ɓaci, kuma ba za a samu lada ba."
+  },
+  {
+    "question": "Menene ma'anar **Riya**?",
+    "answer": "Yin ibada don neman yabo ko gani da mutane."
+  },
+  {
+    "question": "Menene hukuncin **Riya** a koyon Al-Qur'ani?",
+    "answer": "Haramun ne, kuma tana ɓata duk wani lada na aikin."
+  },
+  {
+    "question": "Menene ma'anar **Sum'ah**?",
+    "answer": "Yin aiki a ɓoye, amma kuma a je a faɗa wa mutane don su yaba maka."
+  },
+  {
+    "question": "Yaya Ikhlas ke taimakawa wajen kiyaye haddar Qur'ani?",
+    "answer": "Yana ƙara wa mutum ƙarfi da dagewa, kuma Allah yana taimaka masa."
+  },
+  {
+    "question": "Wace aya ce ke nuna muhimmancin Ikhlas a Musulunci?",
+    "answer": "Ayoyi kamar (وما أمروا إلا ليعبدوا الله مخلصين له الدين)."
+  },
+  {
+    "question": "Menene matsayin aikin da aka yi da Riya?",
+    "answer": "An kira shi da **Shirkul Asghar** (ƙaramin Shirka)."
+  },
+  {
+    "question": "Me ya kamata ka ce a cikin zuciyarka lokacin da za ka fara Muraja’ah?",
+    "answer": "Ina karatu ne domin yardar Allah, da kuma bin Sunnar Annabi (SAW)."
+  },
+  {
+    "question": "Idan ka koyar da Qur'ani saboda kuɗi, shin Ikhlas ɗinka yana nan?",
+    "answer": "A'a, kuɗi bai kamata ya zama babban dalili ba, ya kamata ya zama taimako ne kawai."
+  },
+  {
+    "question": "Menene bambanci tsakanin Ikhlas da Tuhmah (zargin kai)?",
+    "answer": "Ikhlas tana sa ka yi aiki don Allah, Tuhmah tana sa ka daina saboda tsoron Riya."
+  },
+  {
+    "question": "Wane ne mutumin da yake da mafi cikakken Ikhlas a karatun Qur'ani?",
+    "answer": "Wanda yake karatu a ɓoye kuma bai damu da sanin mutane ba."
+  },
+  {
+    "question": "Yaya zan kare Ikhlas ɗina lokacin da aka yaba min saboda kyawun karatuna?",
+    "answer": "Ka mayar da godiya ga Allah, kuma ka tuna cewa falalarsa ce kawai."
+  },
+  {
+    "question": "Menene zai iya ɓata Ikhlas tun kafin fara aiki?",
+    "answer": "Niyyar cewa zan haddace don in zama sananne."
+  },
+  {
+    "question": "Yaya za a samu taimakon Allah wajen samun Ikhlas?",
+    "answer": "Da yawan addu'a da neman gafarar Allah."
+  },
+  {
+    "question": "Menene matsayin mutumin da yake haddace Al-Qur'ani da Riya?",
+    "answer": "Yana cikin mutanen da za a fara jefawa cikin wuta a Ranar Tashin Kiyama."
+  },
+  {
+    "question": "Shin damuwa da kuskure a gaban malami yana nuna rashin Ikhlas?",
+    "answer": "A'a, wannan tsoro ne na ɗabi'a, ba rashin Ikhlas ba ne."
+  },
+  {
+    "question": "Yaya zan yi yaƙi da tunanin **Riya** a lokacin da nake karatu?",
+    "answer": "Ka manta da mutane, ka maida hankali kan Allah da nufin sa."
+  },
+  {
+    "question": "Menene **Ikhlas** yake nunawa ga ɗalibin Qur'ani?",
+    "answer": "Yana nuna dagewa, da kuma yin aiki da abin da ya karanta."
+  },
+  {
+    "question": "Menene ma'anar **Sidq** (Gaskiya) a cikin Ikhlas?",
+    "answer": "Gaskiya a cikin niyya, ba tare da son duniya ba."
+  },
+  {
+    "question": "Wace irin lada ce mai Ikhlas ke samu?",
+    "answer": "Lada mai yawa, kuma za a shigar da shi Aljannah."
+  },
+  {
+    "question": "Wane lokaci ne **Ikhlas** ta fi zama wajibi?",
+    "answer": "A farkon aiki, a tsakiyarsa, har zuwa ƙarshensa."
+  },
+  {
+    "question": "Menene illar neman suna saboda haddar Qur'ani?",
+    "answer": "Yana ɓata haddar kuma yana sa ta zama ta duniya, ba ta Lahira ba."
+  },
+  {
+    "question": "Menene ma'anar **Qasd** a cikin Ikhlas?",
+    "answer": "Nufin wani abu na musamman, wato yardar Allah."
+  },
+  {
+    "question": "Me ya kamata a tuna idan an fara gajiya da Muraja’ah?",
+    "answer": "Tuna ladan Allah da cewa Ikhlas ne zai ci gaba da ƙarfafa aikin."
+  },
+  {
+    "question": "Shin yana da kyau ka ɓoye karatun Qur'ani gaba ɗaya?",
+    "answer": "I, idan hakan zai kare Ikhlas ɗinka daga Riya."
+  },
+  {
+    "question": "Menene ka’idar da ta ce, **'Ayyuka suna tare da Niyyoyi'**?",
+    "answer": "Aikin mutum ya dogara ne ga manufarsa da niyyarsa."
+  },
+  {
+    "question": "Menene ma'anar **Tawakkul** (Dogaro) a cikin Ikhlas?",
+    "answer": "Dogaro ga Allah kawai don aikin ya cika, ba ga ƙarfin mutum ba."
+  },
+  {
+    "question": "Menene **Mujahadah** (Jihadi) ga Ikhlas?",
+    "answer": "Yin yaƙi da zuciya don tabbatar da niyyar Allah kawai."
+  },
+  {
+    "question": "Yaushe Iblis ke shiga tsakanin mutum da Ikhlas ɗinsa?",
+    "answer": "Yana shigowa ne a lokacin da mutum ya fara son a yaba masa."
+  },
+  {
+    "question": "Yaya ake gwada Ikhlas na mutum a koyarwar Qur'ani?",
+    "answer": "Idan bai damu da ko an biya shi ko ba a biya shi ba, yana da Ikhlas."
+  },
+  {
+    "question": "Menene matsayin ɗalibi idan ya karanta Qur'ani saboda Mahaifiyarsa?",
+    "answer": "Niyyar ta kasance ta Allah, amma yin hakan don faranta mata rai yana da kyau."
+  },
+  {
+    "question": "Menene **Shirkul Khafiy** (Boyayyar Shirka)?",
+    "answer": "Wannan shine Riya da Sum'ah, wanda yake boye a cikin zuciya."
+  },
+  {
+    "question": "Menene hukuncin aikin da aka fara da Ikhlas, sannan Riya ta shiga ciki?",
+    "answer": "Riya za ta ɓata ɓangaren aikin da take ciki kawai."
+  },
+  {
+    "question": "Yaya zan yi Ikhlas a lokacin da nake koyar da yara Qur'ani?",
+    "answer": "Niyyar ceto su daga jahilci da kuma samun ladan isar da Sako."
+  },
+  {
+    "question": "Me zai faru idan ɗalibi yana da Ikhlas amma ya yi kuskure a Tajweed?",
+    "answer": "Za a karɓi aikin, kuma za a ba shi ladan wahala."
+  },
+  {
+    "question": "Menene alamun mutum mai Ikhlas a Qur'ani?",
+    "answer": "Yana da ƙasƙantar da kai, kuma baya son a san shi."
+  },
+  {
+    "question": "Menene alamun mutum mai **Riya** a Qur'ani?",
+    "answer": "Yana ƙara ƙarfin karatu a gaban mutane, amma yana ragewa shi kaɗai."
+  },
+  {
+    "question": "Yaya zan nemi taimakon Allah don gyara Ikhlas ɗina?",
+    "answer": "Ka yawaita cewa 'Ya Allah ka gyara niyyata gare Ka'."
+  },
+  {
+    "question": "Menene ake nufi da **Ikhlas** a cikin Muraja’ah Kullum?",
+    "answer": "Yin ta ne saboda Allah, ba don a wuce gaba a wurin malami ba."
+  },
+  {
+    "question": "Shin Allah yana buƙatar aikinmu?",
+    "answer": "A'a, amma muna buƙatar ladan aikin ne."
+  },
+  {
+    "question": "Menene **Ka'idar Ikhlas** game da yabo da zargi?",
+    "answer": "Kada ka damu da yabon mutane ko zarginsu."
+  },
+  {
+    "question": "Menene ma'anar **Ikhlas** a koyon Ruwaya?",
+    "answer": "Nufin kiyaye Sunnar Annabi (SAW) da Musulunci."
+  },
+  {
+    "question": "Menene ma'anar **Hifzul-Bayan** a Ikhlas?",
+    "answer": "Kiyaye niyya a cikin zuciya don kada mutane su ji."
+  },
+  {
+    "question": "Menene amfanin kasancewa mai Ikhlas a Qur'ani?",
+    "answer": "Allah zai kare ka daga Riya, kuma zai kare haddar ka."
+  },
+  {
+    "question": "Menene **As-Sidq** (Gaskiya) a cikin koyon Qur'ani?",
+    "answer": "Yin ƙoƙari na gaskiya, ba yin wasa da aikin ba."
+  },
+  {
+    "question": "Yaya za a gane mutum mai ƙarancin Ikhlas?",
+    "answer": "Yana yin aiki idan mutane suna kallonsa, amma ya barshi idan shi kaɗai yake."
+  },
+  {
+    "question": "Menene **al-Mu’amalah** (Mu'amala) da Ikhlas?",
+    "answer": "Duk abin da ka yi a mu'amala, yi shi ne don Allah."
+  },
+  {
+    "question": "Menene darajar ladan haddar Qur'ani mai Ikhlas?",
+    "answer": "Duk haruffan da ka karanta, kana da lada, kuma ladan ya ninka."
+  },
+  {
+    "question": "Menene ma'anar **Tarkul-Ibadat** (Barin Ibada) saboda Ikhlas?",
+    "answer": "Barin aiki ba daidai ba ne saboda tsoron Riya, Ikhlas yana sa ka yi aiki."
+  },
+  {
+    "question": "Me ya kamata ɗalibi ya yi idan Riya ta zo masa?",
+    "answer": "Ya nemi tsarin Allah, kuma ya ci gaba da aikin da niyyar Allah kawai."
+  },
+  {
+    "question": "Menene **Hubbul-Madih** (Son Yabo)?",
+    "answer": "Son a yaba ma mutum saboda karatun Qur'ani."
+  },
+  {
+    "question": "Menene maganin **Hubbul-Madih**?",
+    "answer": "Ka tuna cewa duk yabon da aka yi ma, zai ƙare a duniya."
+  },
+  {
+    "question": "Menene ma'anar **Istiqamah** a cikin Ikhlas?",
+    "answer": "Dorewa a kan aikin Qur'ani da Ikhlas, ba tare da kasala ba."
+  },
+  {
+    "question": "Shin yin Muraja’ah a masallaci yana ɓata Ikhlas?",
+    "answer": "A'a, amma niyyarka dole ta kasance ta Allah ba mutane ba."
+  },
+  {
+    "question": "Menene ma'anar **Muhasabatun-Nafs** (Kula da Kai) ga Ikhlas?",
+    "answer": "Binciken zuciya akai-akai, shin niyyata tana nan kuwa?"
+  },
+  {
+    "question": "Menene ya fi muhimmanci: Yawan hadda ko Ikhlas?",
+    "answer": "Ikhlas ya fi yawan hadda muhimmanci."
+  },
+  {
+    "question": "Menene **Ikhlas** yake ƙoyarwa a cikin Tajweed?",
+    "answer": "Yin ƙoƙari don gyara Tajweed ne saboda Allah ya karɓi karatu."
+  },
+  {
+    "question": "Yaya Ikhlas zai sa ka amfana da Qur'ani a rayuwarka?",
+    "answer": "Zai sa ka fahimci Qur'ani, kuma ka yi aiki da shi."
+  },
+  {
+    "question": "Menene **Ka'idar Ikhlas** game da abokan aiki?",
+    "answer": "Kada ka ji hassada da nasarar wasu, sai dai ka ji daɗi don su."
+  },
+  {
+    "question": "Menene hukuncin malamin Qur'ani da yake koyarwa don daraja kawai?",
+    "answer": "Riya ce, kuma yana da haɗari ga Lahirarsa."
+  },
+  {
+    "question": "Menene abubuwa guda biyu da ke taimaka wa Ikhlas?",
+    "answer": "Tsoron Allah (**Taqwa**) da sanin Ladansa."
+  },
+  {
+    "question": "Menene **Ikhlas** yake koya mana game da kuskuren hadda?",
+    "answer": "Kada ka damu da kuskure a gaban mutane, gyara shi ne saboda Allah."
+  },
+  {
+    "question": "Menene matsayin aikin da aka yi da Ikhlas, ko da kuwa ba a gama ba?",
+    "answer": "Allah zai ba ka ladan niyya, kuma za a karɓe shi."
+  },
+  {
+    "question": "Menene **Tariqul-Ikhlas** (Hanyar Ikhlas)?",
+    "answer": "Boye ayyukan alheri, da yawan addu'a, da tunawa da mutuwa."
+  },
+  {
+    "question": "Menene ma'anar **Tazkiyatun-Nafs** (Tsarkake Rai) ga Ikhlas?",
+    "answer": "Cire son duniya da son yabo daga zuciya."
+  },
+  {
+    "question": "Yaya zan yi haddar Qur'ani da Ikhlas a cikin gaggawa?",
+    "answer": "Ko da gaggawa, niyyarka ta kasance ta Allah, ba don a gama da wuri ba."
+  },
+  {
+    "question": "Menene **Ikhlas** yake koya wa ɗalibi game da sauran ɗalibai?",
+    "answer": "Ka so su da abin da ka ke so da kanka a Qur'ani."
+  },
+  {
+    "question": "Menene fa'idar **Shukur** (Godiya) a cikin Ikhlas?",
+    "answer": "Yana tuna ma mutum cewa Allah ne ya ba shi ikon haddace Qur'ani."
+  },
+  {
+    "question": "Menene ma'anar **Jami'iyyatul-Ikhlas** (Cikakken Ikhlas)?",
+    "answer": "Sanya dukkanin aiki, daga farko har ƙarshe, don Allah kaɗai."
+  },
+  {
+    "question": "Menene **Al-Qalb As-Saleem** (Zuciya Mai Tsarki) a koyon Qur'ani?",
+    "answer": "Zuciyar da ba ta da Riya da hassada, kawai ta daure Ikhlas."
+  },
+  {
+    "question": "Menene hukuncin mutumin da yake haddace Qur'ani da Ikhlas, amma bai yi aiki da shi ba?",
+    "answer": "Ikhlas ɗinsa yana nan, amma zai yi nadama a kan rashin aiki da Qur'anin."
+  },
+  {
+    "question": "Me ya kamata mutum ya roƙa idan ya gama Muraja’ah?",
+    "answer": "Ya roƙi Allah ya karɓi aikin da Ikhlas."
+  },
+  {
+    "question": "Menene **Ayyukan Sirri** (Ayyukan Ɓoye) ke nunawa ga Ikhlas?",
+    "answer": "Suna nuna cewa mutum yana bauta wa Allah kawai ba mutane ba."
+  },
+  {
+    "question": "Menene ma'anar **At-Tafakkur** (Tunani) a cikin Ikhlas?",
+    "answer": "Yin tunani a kan yadda za ka yi aiki mafi kyau don Allah."
+  },
+  {
+    "question": "Wane irin hadari ne Riya take da shi ga mai Qur'ani?",
+    "answer": "Tana juyar da aikin Lahira zuwa aikin Duniya."
+  },
+  {
+    "question": "Menene mafi girman rabo na mai haddar Qur'ani mai Ikhlas?",
+    "answer": "Kasancewa tare da Mala'iku masu daraja a Lahira."
+  },
+  {
+    "question": "Yaya ake tabbatar da Ikhlas a koyarwar Tajweed?",
+    "answer": "Niyyar cewa ka koyar ne don a karanta littafin Allah daidai."
+  },
+  {
+    "question": "Menene zai iya kiyaye ka daga **Hubbul-Jah** (Son Mataki)?",
+    "answer": "Tuna cewa duk matsayi na duniya zai ƙare."
+  },
+  {
+    "question": "Menene ma'anar **Tawakkul** (Dogaro) ga Ikhlas?",
+    "answer": "Dogaro ga Allah don ya karɓi aikin, ba dogaro da kyawun aikin ba."
+  },
+  {
+    "question": "Menene dalilin da ya sa Annabawa suke da cikakken Ikhlas?",
+    "answer": "Sun san cewa Allah ne kaɗai zai ba su lada."
+  },
+  {
+    "question": "Yaya **Sabr** (Haƙuri) yake da alaƙa da Ikhlas?",
+    "answer": "Haƙuri yana taimakawa wajen ci gaba da aiki, ko da babu wanda ya san ka."
+  },
+  {
+    "question": "Menene ma'anar **Al-Isti’anah** (Neman Taimako) a Ikhlas?",
+    "answer": "Neman taimakon Allah kawai don samun Ikhlas."
+  },
+  {
+    "question": "Menene ya kamata ɗalibi ya yi idan ya ga wani yana **Riya**?",
+    "answer": "Ya yi masa addu'a a ɓoye, kuma ya kare Ikhlas ɗinsa."
+  },
+  {
+    "question": "Menene **Akhlaqul-Qur'an** (Dabi'un Qur'ani) ke nufi ga Ikhlas?",
+    "answer": "Yin aiki da dabi'u masu kyau, ba don a gani ba, sai don Allah."
+  },
+  {
+    "question": "Menene hukuncin aikin da mutum ya manta niyyar Ikhlas ɗinsa a ciki?",
+    "answer": "Ya roƙi Allah ya gafarta masa, kuma ya mai da niyyar Ikhlas."
+  },
+  {
+    "question": "Menene ma'anar **Al-Yaƙeen** (Tabbaci) a cikin Ikhlas?",
+    "answer": "Tabbacin cewa Allah ne kawai ke ba da lada da kuma zai gani."
+  },
+  {
+    "question": "Menene **Wasiyci** (Shawara) mafi mahimmanci ga mai hifz game da Ikhlas?",
+    "answer": "Ka mai da hankali kan dangantakarka da Allah kawai, ba da mutane ba."
+  },
+  {
+    "question": "Menene ake nufi da **Ikhlas** a cikin karatun **Qira'at** (Ruwayoyi)?",
+    "answer": "Niyyar cewa ka haddace ne don kiyaye littafin Allah."
+  },
+  {
+    "question": "Menene ma'anar **Tazkiyatul-Amal** (Tsarkake Aiki)?",
+    "answer": "Cire duk wani shiga na **Riya** ko **Sum'ah** daga aikin."
+  },
+  {
+    "question": "Menene **Ikhlas** ke nufi ga lokacin da kake Muraja’ah da dare shi kaɗai?",
+    "answer": "Cewa yin Muraja’ah da dare shi kaɗai ya fi lada saboda Ikhlas."
+  },
+  {
+    "question": "Menene **Tawadu'** (Ƙasƙantar da Kai) yake koya wa Ikhlas?",
+    "answer": "Ka tuna cewa kai ba ka da wani ƙarfi, sai ta Allah."
+  },
+  {
+    "question": "Menene **Al-Faqr Ila Allah** (Buƙata ga Allah) yake koya wa Ikhlas?",
+    "answer": "Cewa kai mai buƙatar Allah ne, kuma shi kaɗai zai biya ma buƙatunka."
+  },
+  {
+    "question": "Yaya Ikhlas zai sa ka yi amfani da lokacinka wajen Qur'ani?",
+    "answer": "Zai sa ka gane cewa lokaci kadan ne, kuma ka yi amfani da shi yadda ya kamata."
+  },
+  {
+    "question": "Menene **Ikhlas** yake koya wa malamai game da ɗalibai?",
+    "answer": "Ka so ɗalibanka su fi ka Ikhlas da hadda."
+  },
+  {
+    "question": "Menene hukuncin mutumin da yake neman lada biyu, na duniya da Lahira?",
+    "answer": "Zai iya rasa ladan Lahira idan niyyar duniya ta yi yawa."
+  },
+  {
+    "question": "Menene ma'anar **Ad-Dhaw’** (Hasken) Ikhlas?",
+    "answer": "Hasken da ke haskaka zuciya, kuma yake nuna Ikhlas a fuskar mutum."
+  },
+  {
+    "question": "Menene dalilin da ya sa wasu **Ayyuka Sirri** suke da lada fiye da na zahiri?",
+    "answer": "Saboda Ikhlas a ɓoye yana nuna gaskiyar zuciya ga Allah."
+  },
+  {
+    "question": "Yaya za ka tabbatar da Ikhlas a cikin karatunka bayan shekaru da yawa?",
+    "answer": "Ka ci gaba da bincika zuciyarka, kuma ka sabunta niyyarka kullum."
+  },
+  {
+    "question": "Menene hukuncin ɗalibin da ya bar hadda saboda tsoron **Riya**?",
+    "answer": "Wannan ba daidai ba ne, Riya ba ta sa a bar aiki, tana sa a yi aiki da Ikhlas."
+  },
+  {
+    "question": "Menene **Al-Ittiba’** (Biyayya) yake nufi ga Ikhlas a Qur'ani?",
+    "answer": "Yin hadda da karatu kamar yadda Annabi (SAW) da Sahabbai suka yi."
+  },
+  {
+    "question": "Menene mafi girman abin da zai ɓata Ikhlas na haddar Qur'ani?",
+    "answer": "Son a kira ka **'Shaikh'** ko **'Hafiz'** kawai don son suna."
+  },
+  {
+    "question": "Menene ya kamata a tuna idan wani ya yi maka magana game da Qur'aninka?",
+    "answer": "Cewa wannan ba komai ba ne, kuma Allah ne ya ba ka wannan baiwa."
+  },
+  {
+    "question": "Menene **Ikhlas** ke nufi ga lokacin da kake koyar da waɗanda ba su san darajar Qur'ani ba?",
+    "answer": "Cewa za ka ci gaba da koyarwa saboda Allah, ko da ba su ba ka daraja ba."
+  },
+  {
+    "question": "Yaya ake sabunta Ikhlas a kowace rana?",
+    "answer": "Ta hanyar cewa a cikin zuciya 'Ina yin wannan aiki ne saboda Allah' a kowace Muraja’ah."
+  },
+  {
+    "question": "Menene **Al-Jaza’** (Lada) na mai haddar Qur'ani mai Ikhlas?",
+    "answer": "Yana shiga Aljannah, kuma yana ceto iyayensa."
+  }
+]

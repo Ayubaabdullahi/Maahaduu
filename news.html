@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>News - Maahadu Institute</title>
+  <meta name="description" content="Read the latest news and announcements from Maahadu al tahfizul Quran and Qur'anic Studies." />
+  <style>
+    :root{
+      --main-blue: #1e90ff;
+      --accent: #87cefa;
+      --gold: #D4AF37;
+      --aqua: #38BDF8;
+      --card: #ffffff;
+      --muted: #54606a;
+      --shadow: 0 18px 48px rgba(2,6,23,0.08);
+      --maxw:1200px;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:linear-gradient(135deg,#f4f7fa,#e9f1fb);color:#10202b;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:18px auto;padding:14px}
+    .top-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+    .brand-left{display:flex;align-items:center;gap:14px}
+    .logo-space{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--card),#eef7ff);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(2,6,23,0.06);border:2px solid rgba(30,144,255,0.12);overflow:hidden}
+    .logo-space img{width:100%;height:100%;object-fit:cover}
+    .school-abbr{font-weight:900;color:var(--main-blue);font-size:20px}
+    .muted-small{color:var(--muted);font-size:13px}
+    .right-tools{display:flex;gap:12px;align-items:center}
+    .phone-call{font-weight:800;color:var(--main-blue)}
+    .hambtn{width:54px;height:54px;border-radius:12px;background:var(--card);display:inline-flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(2,6,23,0.08);border:1px solid rgba(0,0,0,0.06);cursor:pointer;z-index:2300}
+    .hambtn span{display:block;width:24px;height:2px;background:var(--main-blue);position:relative}
+    .hambtn span::before,.hambtn span::after{content:"";position:absolute;left:0;width:24px;height:2px;background:var(--main-blue)}
+    .hambtn span::before{top:-7px} .hambtn span::after{top:7px}
+    #drawer{position:fixed;right:-100%;top:0;width:25%;height:100vh;background:var(--card);box-shadow:-28px 0 80px rgba(2,6,23,0.14);transition:right .34s;padding:20px;z-index:2200;overflow:auto}
+    #drawer .close{background:none;border:0;font-size:22px;cursor:pointer;float:right}
+    #drawer nav{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+    #drawer a{padding:12px 10px;border-radius:10px;font-weight:800;color:var(--main-blue);border:1px solid rgba(0,0,0,0.04);background:linear-gradient(180deg,var(--card),#fbfdff)}
+    #drawer a:hover{background:linear-gradient(90deg,var(--accent),#fff);color:#06263b}
+    .hero{position:relative;border-radius:18px;padding:0;color:white;overflow:hidden;box-shadow:var(--shadow);min-height:280px;display:flex;align-items:center;justify-content:center}
+    .hero-img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.6)}
+    .hero-overlay{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;z-index:3;padding:20px}
+    .hero-card{max-width:980px;text-align:center;color:white}
+    .hero-card h1{font-size:28px;margin:12px 0 8px;font-weight:900;text-shadow:0 8px 30px rgba(0,0,0,0.45);animation:slideRightIn .9s ease}
+    .hero-card p{max-width:920px;margin:8px auto;color:rgba(255,255,255,0.95);line-height:1.6;animation:fadeInUp 1.2s ease}
+    @keyframes slideRightIn {from{transform:translateX(80px);opacity:0} to{transform:translateX(0);opacity:1}}
+    @keyframes fadeInUp {from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1}}
+    .content-card{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);overflow:hidden}
+    .section-title{display:flex;justify-content:space-between;align-items:end;gap:8px}
+    .section-title h2{margin:0;color:var(--main-blue)}
+    .text-content{line-height:1.7;color:#10202b}
+    .news-container{display:grid;grid-template-columns:1fr;gap:24px;margin-top:20px}
+    .news-article{background:#f8f9fa;padding:20px;border-radius:12px;border:1px solid #e0e6ed}
+    .news-header{text-align:center;margin-bottom:18px}
+    .news-header h3{color:var(--main-blue);margin:0;font-size:24px}
+    .news-header .date{font-size:14px;color:var(--muted);margin-top:4px}
+    .news-image-container{text-align:center;margin-bottom:18px}
+    .news-image{width:100%;max-width:400px;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+    .news-content p{line-height:1.8;margin:10px 0;text-align:justify}
+    .language-section{margin-top:20px;border-top:2px dashed #ddd;padding-top:20px}
+    .language-section h4{color:var(--main-blue)}
+    .reveal{opacity:0;transform:translateX(80px);transition:all .9s ease;will-change:opacity,transform}
+    .reveal.show{opacity:1;transform:translateX(0)}
+    footer{margin-top:22px;padding:14px;background:linear-gradient(90deg,#f4f7fa,#e9f1fb);color:#10202b;text-align:center;font-family:"Scheherazade",serif;font-size:18px;font-weight:800}
+    .dev-info{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:8px;font-size:13px}
+    .socials{display:flex;justify-content:center;gap:6px;margin-top:8px}
+    .socials img{width:28px;height:28px;border-radius:6px;object-fit:cover}
+    @media (max-width:900px){
+      .logo-space{width:76px;height:76px}
+      #drawer{width:75%}
+      .hero-card h1{font-size:24px}
+      .news-content p{font-size:15px} /* Kayan rubutu ya ragu don dacewa da waya */
+      .news-header h3{font-size:20px} /* Kayan take ya ragu don dacewa da waya */
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-row">
+      <div class="brand-left">
+        <div class="logo-space" aria-hidden="false">
+          <img src="mlogo.jpg" alt="ML logo">
+        </div>
+        <div>
+          <div class="school-abbr">MTAQ</div>
+          <div class="muted-small">Maahadu al tahfizul Quran and Qur'anic Studies</div>
+        </div>
+      </div>
+      <div class="right-tools">
+        <div class="phone-call">Call: <a href="tel: 07038022646">07038022646 </a></div>
+        <div class="hambtn" id="hambtn" aria-label="Open menu"><span></span></div>
+      </div>
+    </div>
+
+    <aside id="drawer" aria-hidden="true">
+      <button class="close" id="closeDrawer">✕</button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="mission.html">Mission</a>
+        <a href="saibgallery.html">Gallery</a>
+        <a href="admission.html">Admissions</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </aside>
+
+    <header class="hero" id="hero">
+        <img src="mlogo.jpg" alt="News Hero Image" class="hero-img">
+        <div class="hero-overlay">
+            <div class="hero-card">
+                <h1 class="reveal">LABARAN MU</h1>
+                <p class="reveal">KASANCE DA MU DON SAMUN SABBIN LABARAI DA SANARWAR DA MUKA FITAR YI A KOWANE LOKACI.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="content-card reveal" style="margin-top:18px">
+        <div class="news-container">
+            <article class="news-article">
+                <div class="news-header">
+                    <h3>JAMI'AR USMANU DANFODIYO, SOKOTO, TA GIRMAMA SHUGABAN MU</h3>
+                    <p class="date">An fitar: RANAR LARABA, 20 ga Afrilu, 2024</p>
+                </div>
+                
+                <div class="news-image-container">
+                    <img src="mbello.jpg" alt="Sheikh Muhammad Bello Boyi" class="news-image">
+                </div>
+                
+                <div class="news-content">
+                    <h4>LABARI: AN GIRMAMA SHEIKH BELLO BOYI DA TITLE NA "DOCTOR OF LETTERS"</h4>
+                    <p>
+                        Jami'ar Usmanu Danfodiyo ta Sokoto ta yi wa shugaban makarantarmu, Abu Fatima Gwani Sheikh Muhammad Bello Boyi, babban karramawa inda ta ba shi digirin girmamawa na "Doctor of Letters (Honoris Causa)". Wannan karramawa ta nuna yadda Sheikh Bello Boyi ya sadaukar da rayuwarsa gaba ɗaya wajen yaɗa ilimi da gyara al'umma.
+                    </p>
+                    <p>
+                        Shehin malamin, wanda ya cika shekaru 56 a duniya, an haife shi ne a Garin Sokoto a shekara ta 1389 AH (1968 CE). Ya fara haddar Alkur'ani tun yana ƙarami, inda ya kammala haddarsa yana ɗan shekara 11. Kafin ya kai shekara 24, ya haddace dukkanin littafin Alkur'ani, tare da cikakken fahimtar Tafsirinsa.
+                    </p>
+                    <p>
+                        Sheikh Bello Boyi ya yi karatu a hannun malamai da yawa, ciki har da mahaifinsa, Malam Boyi, sannan kuma ya karanta a hannun Malam Ummaru Babba (Rijiyar Zaure), Malam Hussaini (Kofar Atiku), Malam Muhammad Gwandu, Malam Ibrahim Bakane, da sauransu.
+                    </p>
+                    <div class="language-section">
+                        <h4>ENGLISH VERSION</h4>
+                        <p>
+                            Usmanu Danfodiyo University, Sokoto, has proudly conferred upon our esteemed leader, Abu Fatima Gwani Sheikh Muhammad Bello Boyi, the prestigious title of "Doctor of Letters (Honoris Causa)." This honorary degree is a testament to Sheikh Bello Boyi's lifelong dedication to the pursuit and dissemination of knowledge and his profound positive impact on the community.
+                        </p>
+                        <p>
+                            The 56-year-old Islamic scholar was born in Sokoto in the year 1389 AH (1968 CE). His journey with the Qur'an began at a very early age, enabling him to complete its recitation by the age of 11. By the time he was 24, he had fully memorized the Glorious Qur'an and mastered its Tafseer. He studied under numerous renowned scholars, including his father, Malam Boyi, and other notable figures such as Malam Ummaru Babba, Malam Hussaini, Malam Muhammad Gwandu, and Malam Ibrahim Bakane.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-article">
+                <div class="news-header">
+                    <h3>NASARAR DALIBANMU A CIKIN HADDAR ALKUR'ANI</h3>
+                    <p class="date">An fitar: RANAR LARABA, 22 ga Afrilu, 2024</p>
+                </div>
+                <div class="news-content">
+                    <h4>LABARI: DALIBANMU 500 SUN YI WAQA, 150 NA JIRAN WALIMA</h4>
+                    <p>
+                        Makarantar Maahadu al tahfizul Quran da ke Hubbaren Shehu ta yi nasarar fitar da ɗalibai sama da 500 waɗanda suka kammala haddar Alkur'ani mai girma. Wannan babban nasara ce ga makarantar da al'ummar Sakkwato gabaɗaya.
+                    </p>
+                    <p>
+                        A halin yanzu, akwai sama da ɗalibai 150 da suke jiran Walima (Kammala karatunsu), wanda za a gudanar nan ba da daɗewa ba. Wannan yana ƙara nuna jajircewa da sadaukarwar ɗalibai da kuma malamai a makarantar.
+                    </p>
+                    <div class="language-section">
+                        <h4>ENGLISH VERSION</h4>
+                        <p>
+                            Maahadu al tahfizul Quran, located at Hubbaren Shehu, has successfully produced over 500 students who have completed the memorization of the Glorious Qur'an. This is a significant milestone for both the school and the entire Sokoto community.
+                        </p>
+                        <p>
+                            Currently, more than 150 students are awaiting their graduation ceremony (Walima), which will be held in the near future. This achievement underscores the dedication and hard work of both students and teachers at the institute.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-article">
+                <div class="news-header">
+                    <h3>CIBIYOYIN KOYARWAR SHEIKH BELLO BOYI A FAƊIN KASA</h3>
+                    <p class="date">An fitar: RANAR LARABA, 23 ga Afrilu, 2024</p>
+                </div>
+                <div class="news-content">
+                    <h4>LABARI: CIBIYOYIN KOYARWA NA SHEIKH BELLO BOYI SUN YI YAWAKWAZO</h4>
+                    <p>
+                        Kamar yadda aka sani, Sheikh Bello Boyi ya keɓe rayuwarsa ga koyarwa, kuma ya kafa cibiyoyin koyarwa da dama a ciki da wajen Jihar Sakkwato. Waɗannan cibiyoyin sun zama wuraren da ɗalibai daga ko'ina a duniya ke zuwa don neman ilimi.
+                    </p>
+                    <p>
+                        Daga cikin manyan cibiyoyin da ya kafa a Sakkwato akwai: Mazauninsa a Unguwar Ubandoma, Cibiyar da ke Hubbaren Shehu, Masallacin Imam Shadibi a Unguwar Nakasari, Masallacin Sultan Muhammad Bello a Unguwar Kanwuri, da sauransu. Haka kuma, yana da cibiyoyi a wasu jihohi kamar Gusau, Birnin Kebbi, Gwandu, da Jega.
+                    </p>
+                    <div class="language-section">
+                        <h4>ENGLISH VERSION</h4>
+                        <p>
+                            Sheikh Bello Boyi has dedicated his life to teaching and has established numerous teaching centers both within and outside Sokoto State. These centers have become renowned places where students from all over the world come to seek knowledge.
+                        </p>
+                        <p>
+                            Among the major centers he has established in Sokoto are: His residence in Ubandoma area, the center at Hubbaren Shehu, Imam Shadibi Mosque in Nakasari, Sultan Muhammad Bello Mosque in Kanwuri, and others. He also has centers in other states like Gusau, Birnin Kebbi, Gwandu, and Jega.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+      <div class="arabic">معهد التحفيظ والدراسات القرآنية © 2025</div>
+      <div class="dev-info">
+        <span>Developed by </span>
+        <span>📞 09066851341</span>
+      </div>
+      <div class="socials">
+        <a href="https://facebook.com/maahadu" target="_blank"><img src="mficon.jpg" alt="facebook"></a>
+        <a href="https://wa.me/2349066851341" target="_blank"><img src="mwicon.jpg" alt="whatsapp"></a>
+        <a href="https://tiktok.com/@maahadu" target="_blank"><img src="mticon.jpg" alt="tiktok"></a>
+        <a href="https://instagram.com/maahadu" target="_blank"><img src="miicon.jpg" alt="instagram"></a>
+        <a href="https://x.com/maahadu" target="_blank"><img src="mxicon.jpg" alt="x"></a>
+      </div>
+    </footer>
+  </div>
+  <script>
+    const hambtn = document.getElementById('hambtn');
+    const drawer = document.getElementById('drawer');
+    const closeDrawer = document.getElementById('closeDrawer');
+    hambtn.addEventListener('click', () => {
+      const open = drawer.style.right === '0px';
+      drawer.style.right = open ? '-100%' : '0';
+      drawer.setAttribute('aria-hidden', open ? 'true' : 'false');
+      hambtn.style.display = open ? 'inline-flex' : 'none';
+    });
+    if(closeDrawer) closeDrawer.addEventListener('click', () => {
+      drawer.style.right = '-100%';
+      hambtn.style.display = 'inline-flex';
+    });
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    }, {threshold:0.12});
+    reveals.forEach(r => io.observe(r));
+  </script>
+</body>
+</html>

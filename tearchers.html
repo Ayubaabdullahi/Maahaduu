@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Our Teachers - Maahadu Institute</title>
+  <meta name="description" content="Meet our professional and dedicated teachers at Maahadu al tahfizul Quran" />
+  <style>
+    :root{
+      --main-blue: #1e90ff;
+      --accent: #87cefa;
+      --gold: #D4AF37;
+      --aqua: #38BDF8;
+      --card: #ffffff;
+      --muted: #54606a;
+      --shadow: 0 18px 48px rgba(2,6,23,0.08);
+      --maxw:1200px;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:linear-gradient(135deg,#f4f7fa,#e9f1fb);color:#10202b;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:18px auto;padding:14px}
+    .top-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+    .brand-left{display:flex;align-items:center;gap:14px}
+    .logo-space{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--card),#eef7ff);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(2,6,23,0.06);border:2px solid rgba(30,144,255,0.12);overflow:hidden}
+    .logo-space img{width:100%;height:100%;object-fit:cover}
+    .school-abbr{font-weight:900;color:var(--main-blue);font-size:20px}
+    .muted-small{color:var(--muted);font-size:13px}
+    .right-tools{display:flex;gap:12px;align-items:center}
+    .phone-call{font-weight:800;color:var(--main-blue)}
+    .hambtn{width:54px;height:54px;border-radius:12px;background:var(--card);display:inline-flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(2,6,23,0.08);border:1px solid rgba(0,0,0,0.06);cursor:pointer;z-index:2300}
+    .hambtn span{display:block;width:24px;height:2px;background:var(--main-blue);position:relative}
+    .hambtn span::before,.hambtn span::after{content:"";position:absolute;left:0;width:24px;height:2px;background:var(--main-blue)}
+    .hambtn span::before{top:-7px} .hambtn span::after{top:7px}
+    #drawer{position:fixed;right:-100%;top:0;width:25%;height:100vh;background:var(--card);box-shadow:-28px 0 80px rgba(2,6,23,0.14);transition:right .34s;padding:20px;z-index:2200;overflow:auto}
+    #drawer .close{background:none;border:0;font-size:22px;cursor:pointer;float:right}
+    #drawer nav{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+    #drawer a{padding:12px 10px;border-radius:10px;font-weight:800;color:var(--main-blue);border:1px solid rgba(0,0,0,0.04);background:linear-gradient(180deg,var(--card),#fbfdff)}
+    #drawer a:hover{background:linear-gradient(90deg,var(--accent),#fff);color:#06263b}
+    .hero{position:relative;border-radius:18px;padding:0;color:white;overflow:hidden;box-shadow:var(--shadow);min-height:280px;display:flex;align-items:center;justify-content:center}
+    .hero-img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.6)}
+    .hero-overlay{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;z-index:3;padding:20px}
+    .hero-card{max-width:980px;text-align:center;color:white}
+    .hero-card h1{font-size:28px;margin:12px 0 8px;font-weight:900;text-shadow:0 8px 30px rgba(0,0,0,0.45);animation:slideRightIn .9s ease}
+    .hero-card p{max-width:920px;margin:8px auto;color:rgba(255,255,255,0.95);line-height:1.6;animation:fadeInUp 1.2s ease}
+    @keyframes slideRightIn {from{transform:translateX(80px);opacity:0} to{transform:translateX(0);opacity:1}}
+    @keyframes fadeInUp {from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1}}
+    .content-card{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);overflow:hidden}
+    .section-title{display:flex;justify-content:space-between;align-items:end;gap:8px}
+    .section-title h2{margin:0;color:var(--main-blue)}
+    .text-content{line-height:1.7;color:#10202b}
+    .text-content h3{color:var(--main-blue);margin-top:20px}
+    .teacher-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;margin-top:16px}
+    .teacher-card{background:linear-gradient(180deg,var(--card),#fbfdff);border-radius:12px;padding:14px;box-shadow:0 10px 30px rgba(2,6,23,0.06);border:1px solid rgba(0,0,0,0.04);text-align:center}
+    .teacher-card h4{color:var(--main-blue);margin-top:0}
+    .teacher-card img{width:100%;height:auto;border-radius:10px;margin-bottom:10px;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+    .teacher-info{text-align:left;line-height:1.5}
+    .teacher-info strong{display:block;margin-top:8px}
+    .reveal{opacity:0;transform:translateX(80px);transition:all .9s ease;will-change:opacity,transform}
+    .reveal.show{opacity:1;transform:translateX(0)}
+    footer{margin-top:22px;padding:14px;background:linear-gradient(90deg,#f4f7fa,#e9f1fb);color:#10202b;text-align:center;font-family:"Scheherazade",serif;font-size:18px;font-weight:800}
+    .dev-info{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:8px;font-size:13px}
+    .dev-img{width:40px;height:40px;border-radius:8px;object-fit:cover}
+    .socials{display:flex;justify-content:center;gap:6px;margin-top:8px}
+    .socials img{width:28px;height:28px;border-radius:6px;object-fit:cover}
+    @media (max-width:900px){
+      .logo-space{width:76px;height:76px}
+      #drawer{width:75%}
+      .hero-card h1{font-size:24px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-row">
+      <div class="brand-left">
+        <div class="logo-space" aria-hidden="false">
+          <img src="mlogo.jpg" alt="ML logo">
+        </div>
+        <div>
+          <div class="school-abbr">MTAQ</div>
+          <div class="muted-small">Maahadu al tahfizul Quran and Qur'anic Studies</div>
+        </div>
+      </div>
+      <div class="right-tools">
+        <div class="phone-call">Call: <a href="tel:07038022646"> 07038022646</a></div>
+        <div class="hambtn" id="hambtn" aria-label="Open menu"><span></span></div>
+      </div>
+    </div>
+
+    <aside id="drawer" aria-hidden="true">
+      <button class="close" id="closeDrawer">✕</button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="mission.html">Mission</a>
+        <a href="saibgallery.html">Gallery</a>
+        <a href="admission.html">Admissions</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </aside>
+
+    <header class="hero" id="hero">
+        <img src="mlogo.jpg" alt="Teachers Hero Image" class="hero-img">
+        <div class="hero-overlay">
+            <div class="hero-card">
+                <h1 class="reveal">Our Dedicated Teachers</h1>
+                <p class="reveal">Ku san malamanmu masu jajircewa da sadaukarwa wajen yada ilimin Alƙur'ani da tarbiyya.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="content-card reveal" style="margin-top:18px">
+        <div class="section-title">
+            <h2>Godiya da Addu'a ga Malamai</h2>
+            <div class="muted-small">Jazakumullahu Khairan</div>
+        </div>
+        <div class="text-content" style="margin-top:12px">
+            <p>Muna gode wa Allah Subhanahu wa Ta'ala da ya ba mu malamai masu ilimi, sadaukarwa, da kuma ƙaunar koyar da littafin Allah. Suna ba da gudummuwa sosai wajen ilimantar da al'umma, da kuma gina halayen kirki a cikin ɗalibanmu. Muna roƙon Allah ya saka musu da alkhairi, ya gafarta musu zunubansu, kuma ya sanya aljannah a matsayin makomarsu.</p>
+            <p>Ayyukan malamai na da matuƙar mahimmanci, domin su ne ke gadon Annabawa, suna yaɗa hasken ilimi da shiriya. Muna yi musu addu'a mai yawa da kuma fatan alkhairi a dukkan harkokinsu na rayuwa.</p>
+        </div>
+    </section>
+
+    <section class="content-card reveal" style="margin-top:18px">
+        <div class="section-title">
+            <h2>TERCHERS THAT YOU CAN CONTACT DIRECT</h2>
+            <div class="muted-small">contact teachers for more information </div>
+        </div>
+        <div class="teacher-grid">
+            <div class="teacher-card">
+                <img src="mbello.jpg" alt="Malam Image">
+                <h4>GWANI ML MUHD BELLO BOYI </h4>
+                <div class="teacher-info">
+                    <strong>ADDRESS:</strong> GIDAN UBAN DOMA<br>
+                    <strong>PHONE NUMBER:</strong> <a href="tel:. 08036153025"> 08036153025</a><br>
+                    <strong>Email:</strong> <a href="mailto:email@example.com">email@example.com</a>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="mnura.jpg" alt="Malam Image">
+                <h4>ML NURA ALIYU</h4>
+                <div class="teacher-info">
+                    <strong>Adireshin:</strong> Cike adireshin anan<br>
+                    <strong> 08037371836:</strong> <a href="tel:08037371836"> 08037371836</a><br>
+                    <strong>Email:</strong> <a href="mailto:email@example.com">email@example.com</a>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="mshuaibu.jpg" alt="Malam Image">
+                <h4>ML SHUAIBU IBRAHIM</h4>
+                <div class="teacher-info">
+                    <strong>Adireshin:</strong> modibbo adama road nearest prison junction sokoto<br>
+                    <strong>07038022646</strong> <a href="tel:07038022646 ">  07038022646</a><br>
+                    <strong>Email:</strong> <a href="mailto:email@example.com">shuaibuibrahimshibi2@gmail.com</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+      <div class="arabic">معهد التحفيظ والدراسات القرآنية © 2025</div>
+      <div class="dev-info">
+        
+        <span>Developed by </span>
+        <span>📞 09066851341</span>
+      </div>
+      <div class="socials">
+        <a href="https://facebook.com/maahadu" target="_blank"><img src="mficon.jpg" alt="facebook"></a>
+        <a href="https://wa.me/2349066851341" target="_blank"><img src="mwicon.jpg" alt="whatsapp"></a>
+        <a href="https://tiktok.com/@maahadu" target="_blank"><img src="mticon.jpg" alt="tiktok"></a>
+        <a href="https://instagram.com/maahadu" target="_blank"><img src="miicon.jpg" alt="instagram"></a>
+        <a href="https://x.com/maahadu" target="_blank"><img src="mxicon.jpg" alt="x"></a>
+      </div>
+    </footer>
+  </div>
+  <script>
+    const hambtn = document.getElementById('hambtn');
+    const drawer = document.getElementById('drawer');
+    const closeDrawer = document.getElementById('closeDrawer');
+    hambtn.addEventListener('click', () => {
+      const open = drawer.style.right === '0px';
+      drawer.style.right = open ? '-100%' : '0';
+      drawer.setAttribute('aria-hidden', open ? 'true' : 'false');
+      hambtn.style.display = open ? 'inline-flex' : 'none';
+    });
+    if(closeDrawer) closeDrawer.addEventListener('click', () => {
+      drawer.style.right = '-100%';
+      hambtn.style.display = 'inline-flex';
+    });
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    }, {threshold:0.12});
+    reveals.forEach(r => io.observe(r));
+  </script>
+</body>
+</html>

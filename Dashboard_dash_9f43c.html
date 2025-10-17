@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Dashboard - معهد التحفيظ والدراسات القرآنية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            display: flex;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background: #004080;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+        }
+        .sidebar h2 {
+            text-align: center;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px 0;
+            background: #0059b3;
+            border-radius: 5px;
+        }
+        .sidebar a:hover {
+            background: #003366;
+        }
+        /* Main Content */
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+            width: 100%;
+        }
+        header {
+            background: #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        section {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .top-nav {
+            background: #004080;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 150px;
+            vertical-align: middle;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links li {
+            margin: 0 10px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            body {
+                display: block;
+            }
+            .sidebar {
+                width: 100%;
+                position: static;
+                height: auto;
+                padding: 10px;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 10px;
+            }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                background: #004080;
+                width: 100%;
+                padding: 10px 0;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .nav-links li {
+                margin: 10px 0;
+                text-align: center;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo"><img src="mlogo.jpg" alt="Logo"> <p> </p>معهد التحفيظ والدراسات القرآنية <br> Institute of Quran Memorization and Studies</div>
+        <div class="hamburger">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- 🔹 Sidebar -->
+    <div class="sidebar">
+        <h2> SCHOOL DASHBOARD</h2>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd23Qqdr-wlCuanEvb9YDYsF1hfJDJwGLwIJaOELb1qdo4BBw/viewform?usp=header">📁 Upload Files</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScDHCY3lqXB0KBxnlrQSnVX0G9Uc7ic7DDI_e8i-RcsfzXU0w/viewform?usp=header">👩‍🏫 Teachers Record</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5Jxy8c8GTbx4p8ZOKOLBxN7Ht6xn2L_l9fhFAyP7bGuohhg/viewform?usp=header">👨‍🎓 Student Record</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScQeXgSsapfJQ-vy-oUBtmjDS9CJN2xLFEjUQ1XdQwMt_LSgw/viewform?usp=header">📝 Exam Record</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6e0H0jhN7bF0VkDfSrzjInRukZF_PRz0VEFNNsZxLWxSNNg/viewform?usp=header">🎓 Certificate Record</a>
+        <a href="https://meet.jit.si/maahaduschoolonlinemeeting">💬 Online Meeting</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQVrpWG0_J9Lw6fGH8bLIwAFy927Xvgy-6jY8D5e_N4IrwyQ/viewform?usp=header">📖 Huffaz Record</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDqOtlXV51IXsNdQy_v9gkbqlnHETqUHkOUgVCei4ZJauVNQ/viewform?usp=header">⭐ Rate Us</a>
+        <a href="login.html">🚪 Logout</a>
+    </div>
+    <!-- 🔹 Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Welcome, Teacher</h1>
+            <p>This is your control panel</p>
+        </header>
+        <section>
+            <h2>Quick Overview</h2>
+            <p>📌 You can upload files, manage teachers and student records, exam records, generate certificates, and set up online meetings here.</p>
+        </section>
+        <section>
+            <h2>Recent Activity</h2>
+            <p>No records yet.</p>
+        </section>
+        <footer>
+            <p>معهد التحفيظ والدراسات القرآنية <br> Institute of Quran Memorization and Studies</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

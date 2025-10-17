@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maahadu School Admin Login</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #023e8a, #0077b6);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      transition: background 0.5s ease;
+      animation: fadeInBody 1s ease-in-out;
+    }
+
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideUp 0.8s ease-out;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .login-container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .school-header {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: fadeInText 1.2s ease-in-out;
+    }
+
+    .school-header img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .school-header img:hover {
+      transform: rotate(360deg) scale(1.1);
+    }
+
+    .school-header h1 {
+      font-size: 24px;
+      margin: 0;
+      color: #fff;
+    }
+
+    .school-header p {
+      font-size: 16px;
+      color: #ddd;
+      margin: 5px 0 0;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #fff;
+      animation: fadeInText 1.2s ease-in-out;
+    }
+
+    @keyframes fadeInText {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    input:focus {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.02);
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00b4d8;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0096c7;
+      transform: scale(1.02);
+    }
+
+    .notification {
+      margin-top: 15px;
+      color: yellow;
+      font-size: 14px;
+      transition: opacity 0.5s ease;
+    }
+
+    @media (max-width: 600px) {
+      .login-container {
+        padding: 20px;
+      }
+      input, button {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="school-header">
+      <img src="mlogo.jpg" alt="Maahadu School Logo">
+      <h1>Maahadu Ttahfizu Waddarasatul Quraniyyah</h1>
+      <p>Barka da zuwa Maahadu School! (Welcome to Maahadu School!)</p>
+    </div>
+    <h2>Admin Login</h2>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Enter Email" required />
+      <input type="password" id="password" placeholder="Enter Password" required />
+      <button type="submit">Login</button>
+      <div class="notification" id="notification"></div>
+    </form>
+  </div>
+
+  <script type="module">
+    // Firebase imports
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+
+    // 🔥 Your Firebase Configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDm35w4edp811CsLhyiUSUqlkEt69_BWYU",
+      authDomain: "loginsysterm.firebaseapp.com",
+      projectId: "loginsysterm",
+      storageBucket: "loginsysterm.firebasestorage.app",
+      messagingSenderId: "181422276481",
+      appId: "1:181422276481:web:0a74d8a68c2446a4673280",
+      measurementId: "G-H4SYPENMZT"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+
+    // 🧠 Admin Email (ka tabbata wannan ne daidai)
+    const adminEmail = "maahaduschool@gmail.com";
+
+    // 🧩 Login Script
+    const loginForm = document.getElementById("loginForm");
+    const notification = document.getElementById("notification");
+
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          if (user.email.toLowerCase() === adminEmail.toLowerCase()) {
+            notification.style.color = "lightgreen";
+            notification.innerText = "✅ Login successful. Redirecting...";
+            setTimeout(() => {
+              window.location.href = "admin.html"; // sai ya wuce admin panel
+            }, 1500);
+          } else {
+            notification.style.color = "red";
+            notification.innerText = "❌ Not admin. Access denied.";
+          }
+        })
+        .catch((error) => {
+          notification.style.color = "orange";
+          notification.innerText = "⚠️ Login failed: " + error.message;
+        });
+    });
+  </script>
+</body>
+</html>

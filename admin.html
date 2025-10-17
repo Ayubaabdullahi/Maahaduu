@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maahadu Admin Panel</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to bottom right, #023e8a, #0077b6);
+      color: white;
+      padding: 40px;
+      margin: 0;
+      transition: background 0.5s ease;
+      animation: fadeInBody 1s ease-in-out;
+    }
+
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+      animation: fadeInText 1.2s ease-in-out;
+    }
+
+    @keyframes fadeInText {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideUp 0.8s ease-out;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .school-header {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: fadeInText 1.2s ease-in-out;
+    }
+
+    .school-header img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .school-header img:hover {
+      transform: rotate(360deg) scale(1.1);
+    }
+
+    .school-header h1 {
+      font-size: 24px;
+      margin: 0;
+      color: #fff;
+    }
+
+    .school-header p {
+      font-size: 16px;
+      color: #ddd;
+      margin: 5px 0 0;
+    }
+
+    input {
+      padding: 12px;
+      margin: 10px 0;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    input:focus {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.02);
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px;
+      background-color: #00b4d8;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0096c7;
+      transform: scale(1.02);
+    }
+
+    #message {
+      margin-top: 10px;
+      color: yellow;
+      font-weight: bold;
+      transition: opacity 0.5s ease;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+      animation: fadeInTable 1s ease-in-out;
+    }
+
+    @keyframes fadeInTable {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      text-align: left;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    th {
+      background: rgba(0, 180, 216, 0.5);
+      color: white;
+    }
+
+    tr:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .delete-btn {
+      background: #dc3545;
+      padding: 8px 12px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .delete-btn:hover {
+      background: #b02a37;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+      .card {
+        padding: 20px;
+      }
+      input, button {
+        padding: 10px;
+      }
+      table {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="school-header">
+    <img src="mlogo.jpg" alt="Maahadu School Logo">
+    <h1>Maahadu Ttahfizu Waddarasatul Quraniyyah</h1>
+    <p>Barka da zuwa Maahadu School! (Welcome to Maahadu School!)</p>
+  </div>
+  <h1>Maahadu Admin Panel you can add and delete teachers</h1>
+  <div class="card">
+    <h3>Add New Teacher</h3>
+    <input type="email" id="email" placeholder="Teacher Email">
+    <input type="password" id="password" placeholder="Teacher Password">
+    <button id="addUser">Add Teacher</button>
+    <p id="message"></p>
+
+    <h3>All Teachers</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="userList">
+        <tr><td colspan="3" style="text-align:center;">Loading users...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+    import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+
+    // 🔹 Your Firebase Config
+    const firebaseConfig = {
+      apiKey: "AIzaSyDm35w4edp811CsLhyiUSUqlkEt69_BWYU",
+      authDomain: "loginsysterm.firebaseapp.com",
+      projectId: "loginsysterm",
+      storageBucket: "loginsysterm.firebasestorage.app",
+      messagingSenderId: "181422276481",
+      appId: "1:181422276481:web:0a74d8a68c2446a4673280",
+      measurementId: "G-H4SYPENMZT"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const auth = getAuth(app);
+
+    // 🔹 Admin Auto Login
+    const adminEmail = "maahaduschool@gmail.com";
+    const adminPass = "01011968";
+    await signInWithEmailAndPassword(auth, adminEmail, adminPass);
+
+    const message = document.getElementById("message");
+    const userList = document.getElementById("userList");
+
+    // 🔹 Real-time listener for teachers
+    const usersCol = collection(db, "users");
+    onSnapshot(usersCol, (snapshot) => {
+      userList.innerHTML = "";
+      if (snapshot.empty) {
+        userList.innerHTML = "<tr><td colspan='3' style='text-align:center;'>No teachers found</td></tr>";
+        return;
+      }
+      snapshot.forEach(docSnap => {
+        const user = docSnap.data();
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${user.email}</td>
+          <td>${user.password}</td>
+          <td><button class="delete-btn" data-id="${docSnap.id}">Delete</button></td>
+        `;
+        userList.appendChild(row);
+      });
+
+      document.querySelectorAll(".delete-btn").forEach(btn => {
+        btn.addEventListener("click", async () => {
+          const id = btn.getAttribute("data-id");
+          await deleteDoc(doc(db, "users", id));
+          message.innerText = "🗑️ Teacher removed successfully!";
+        });
+      });
+    });
+
+    // 🔹 Add new teacher
+    document.getElementById("addUser").addEventListener("click", async () => {
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      if (!email || !password) {
+        message.innerText = "⚠️ Please enter both email and password.";
+        return;
+      }
+
+      try {
+        await setDoc(doc(db, "users", email), { email, password });
+        message.innerText = "✅ Teacher added successfully!";
+        document.getElementById("email").value = "";
+        document.getElementById("password").value = "";
+      } catch (error) {
+        message.innerText = "❌ Error adding teacher: " + error.message;
+      }
+    });
+  </script>
+</body>
+</html>

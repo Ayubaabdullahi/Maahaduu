@@ -1,0 +1,430 @@
+[
+  {
+    "question": "Menene ma'anar Tajweed a zahiri?",
+    "answer": "Yana nufin gyarawa ko ingantawa."
+  },
+  {
+    "question": "Menene Tajweed a shari'a?",
+    "answer": "Yin karatun kowane harafi yadda ya kamata daga wurin fitarsa (**Makhraj**) tare da halayensa (**Sifat**)."
+  },
+  {
+    "question": "Menene hukuncin koyon Tajweed aiki da shi?",
+    "answer": "Farali ne na Ain (wajibi ga kowane musulmi)."
+  },
+  {
+    "question": "Menene ma'anar **Makharij al-Huruf**?",
+    "answer": "Wuraren da kowane harafi yake fitowa daga gare su."
+  },
+  {
+    "question": "Menene ma'anar **Sifat al-Huruf**?",
+    "answer": "Halayen da suke bayyana haruffa, kamar su kauri da rauni."
+  },
+  {
+    "question": "Yaya ake raba manyan wuraren fitar haruffa?",
+    "answer": "Suna da kashi 5: Jauf, Halq, Lisan, Shafatan, da Khayshum."
+  },
+  {
+    "question": "Menene **Jauf**?",
+    "answer": "Wurin wofi da ke farawa daga makogwaro har zuwa baki."
+  },
+  {
+    "question": "Haruffa nawa ne ke fitowa daga **Halq** (Maƙogwaro)?",
+    "answer": "Haruffa shida: Hamza (ء), Ha (ه), 'Ain (ع), Ha' (ح), Ghain (غ), Kha (خ)."
+  },
+  {
+    "question": "Menene wurin fitar haruffa mafi girma?",
+    "answer": "**Lisan** (Harshe) ne wurin fitar haruffa mafi girma, yana da wuraren fitar haruffa guda 10."
+  },
+  {
+    "question": "Menene **Shafatan**?",
+    "answer": "Leɓɓa biyu, kuma haruffa huɗu ke fitowa daga cikinsu."
+  },
+  {
+    "question": "Menene **Khayshum**?",
+    "answer": "Cikin hanci, kuma shine wurin fitar **Ghunnah**."
+  },
+  {
+    "question": "Menene **Tafkhim** (Kauri)?",
+    "answer": "Cika baki da sauti a lokacin furucin harafin."
+  },
+  {
+    "question": "Haruffan **Tafkhim** nawa ne?",
+    "answer": "Guda bakwai, wanda ake kira (**خص ضغط قظ**)."
+  },
+  {
+    "question": "Menene **Tarqiq** (Rauni)?",
+    "answer": "Rage cikar baki da sauti a lokacin furucin harafin."
+  },
+  {
+    "question": "Haruffa nawa ne koyaushe suke zama **Tarqiq**?",
+    "answer": "Sauran haruffa banda na Tafkhim, da Alif da Lam da Raa a wasu lokuta."
+  },
+  {
+    "question": "Wane harafi ne ke da hukunci tsakanin **Tafkhim da Tarqiq**?",
+    "answer": "Alif (ا), Lam (ل), da Raa (ر) ne."
+  },
+  {
+    "question": "Ka'idojin **Noon Sakinah** da **Tanween** nawa ne?",
+    "answer": "Guda huɗu: Izhar, Idgham, Iqlab, Ikhfa."
+  },
+  {
+    "question": "Menene **Izhar Halqi**?",
+    "answer": "Bayyana Noon Sakinah/Tanween a sarari ba tare da Ghunnah ba, a gaban haruffa Halq guda shida."
+  },
+  {
+    "question": "Menene **Idgham**?",
+    "answer": "Shigar da Noon Sakinah/Tanween cikin harafi mai biye da shi."
+  },
+  {
+    "question": "Kashi nawa ne **Idgham** ya kasu?",
+    "answer": "Kashi biyu: Idgham tare da Ghunnah da Idgham ba tare da Ghunnah ba."
+  },
+  {
+    "question": "Wane harafi ne ke haifar da **Iqlab**?",
+    "answer": "Harafin **Ba (ب)**."
+  },
+  {
+    "question": "Menene ma'anar **Ikhfa Haqiqi**?",
+    "answer": "Boye sautin Noon Sakinah/Tanween tsakanin Izhar da Idgham tare da yin Ghunnah."
+  },
+  {
+    "question": "Haruffa nawa ne na **Ikhfa**?",
+    "answer": "Haruffa goma sha biyar (waɗanda ba na Izhar ko Idgham ko Iqlab ba)."
+  },
+  {
+    "question": "Menene **Ghunnah**?",
+    "answer": "Sauti mai daɗi wanda yake fitowa daga Khayshum (hanci)."
+  },
+  {
+    "question": "Ghunnah na haraka nawa ne a mafi yawan lokuta?",
+    "answer": "Haraka biyu (2)."
+  },
+  {
+    "question": "Ka'idojin **Meem Sakinah** nawa ne?",
+    "answer": "Guda uku: Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi."
+  },
+  {
+    "question": "Menene **Ikhfa Shafawi**?",
+    "answer": "Boye Meem Sakinah tare da Ghunnah a gaban harafin **Ba (ب)**."
+  },
+  {
+    "question": "Menene **Idgham Shafawi**?",
+    "answer": "Shigar da Meem Sakinah cikin harafin **Meem (م)** mai motsi."
+  },
+  {
+    "question": "Menene **Izhar Shafawi**?",
+    "answer": "Bayyana Meem Sakinah a gaban sauran haruffa, banda Ba da Meem."
+  },
+  {
+    "question": "Menene hukuncin **Lam** na kalmar **'Allah'** idan gabaninsa Fatha ce?",
+    "answer": "**Tafkhim** (Kauri)."
+  },
+  {
+    "question": "Menene hukuncin **Lam** na kalmar **'Allah'** idan gabaninsa Kasra ce?",
+    "answer": "**Tarqiq** (Rauni)."
+  },
+  {
+    "question": "Yaushe ake yin **Tafkhim** (kauri) ga **Raa**?",
+    "answer": "Idan tana da Fatha ko Damma, ko kuma Sakinah ce gabaninta Fatha/Damma."
+  },
+  {
+    "question": "Yaushe ake yin **Tarqiq** (rauni) ga **Raa**?",
+    "answer": "Idan tana da Kasra, ko Sakinah ce gabaninta Kasra."
+  },
+  {
+    "question": "Menene **Qalqalah**?",
+    "answer": "Tsalle ko raɗaɗin sauti ga haruffa biyar lokacin da suke da sukuni."
+  },
+  {
+    "question": "Haruffan **Qalqalah** nawa ne?",
+    "answer": "Guda biyar: Qaf (ق), Ta (ط), Ba (ب), Jim (ج), Dal (د) (**قطب جد**)."
+  },
+  {
+    "question": "Kashi nawa ne **Qalqalah** ta kasu?",
+    "answer": "Kashi biyu: Qalqalah Sughra (ƙarama) da Qalqalah Kubra (babbar)."
+  },
+  {
+    "question": "Yaushe ake yin **Qalqalah Kubra**?",
+    "answer": "Lokacin da harafin Qalqalah ya zo a ƙarshen kalma kuma a tsaya a kan shi."
+  },
+  {
+    "question": "Menene **Al-Madd**?",
+    "answer": "Dogon sauti (Prolongation) na haruffan Madd."
+  },
+  {
+    "question": "Haruffan **Al-Madd** nawa ne?",
+    "answer": "Guda uku: Alif (ا), Wawu (و), Ya (ي)."
+  },
+  {
+    "question": "Menene **Madd Asli**?",
+    "answer": "Dogon sauti na asali, tsawonsa Haraka biyu."
+  },
+  {
+    "question": "Menene **Madd Far'i**?",
+    "answer": "Dogon sauti na reshe, wanda ake ƙarawa saboda Hamza ko Sukuni."
+  },
+  {
+    "question": "Menene **Madd Wajib Muttasil**?",
+    "answer": "Dogon sauti mai wajibi; idan Hamzah da harafin Madd suna a kalma ɗaya."
+  },
+  {
+    "question": "Menene **Madd Ja'iz Munfasil**?",
+    "answer": "Dogon sauti mai halatta; idan Hamzah da harafin Madd suna a kalmomi daban-daban."
+  },
+  {
+    "question": "Menene **Madd Lazim**?",
+    "answer": "Dogon sauti mafi tsayi (Haraka shida), wanda dalilinsa shine Sukuni na asali."
+  },
+  {
+    "question": "Kashi nawa ne **Madd Lazim** ya kasu?",
+    "answer": "Kashi huɗu: Kalimi Mukhaffaf, Kalimi Muthaqqal, Harfi Mukhaffaf, Harfi Muthaqqal."
+  },
+  {
+    "question": "Menene **Madd 'Arid Li-s-Sukun**?",
+    "answer": "Dogon sauti mai halatta idan aka tsaya a kan kalma mai harafin Madd, kuma harafin ƙarshe ya zama Sakinah."
+  },
+  {
+    "question": "Menene **Madd Al-Lin**?",
+    "answer": "Dogon sauti a lokacin tsayawa ga Wawu ko Ya' mai sukuni gabaninta Fatha."
+  },
+  {
+    "question": "Menene **Waqf** a Tajweed?",
+    "answer": "Yanke sautin karatu na ɗan lokaci don numfashi, sannan a sake ci gaba."
+  },
+  {
+    "question": "Menene **Ibtida** a Tajweed?",
+    "answer": "Fara karatu bayan an tsaya."
+  },
+  {
+    "question": "Alamar tsayawa **(م)** tana nufin menene?",
+    "answer": "**Waqf Lazim** (Tsayawa mai wajibi)."
+  },
+  {
+    "question": "Alamar tsayawa **(قلي)** tana nufin menene?",
+    "answer": "**Al-Waqf Awla** (Tsayawa ya fi ci gaba)."
+  },
+  {
+    "question": "Alamar tsayawa **(صلي)** tana nufin menene?",
+    "answer": "**Al-Wasl Awla** (Ci gaba ya fi tsayawa)."
+  },
+  {
+    "question": "Alamar tsayawa **(لا)** tana nufin menene?",
+    "answer": "**Laa Waqf** (Kada a tsaya a nan)."
+  },
+  {
+    "question": "Menene **Idgham Mutamathilain**?",
+    "answer": "Shigar da haruffa biyu masu kama da juna, kamar harufa biyu 'ميم' ko 'دال'."
+  },
+  {
+    "question": "Menene **Idgham Mutajanisain**?",
+    "answer": "Shigar da haruffa biyu masu wuri guda na fitowa, amma halaye daban-daban, kamar 'تاء' da 'طاء'."
+  },
+  {
+    "question": "Menene **Idgham Mutaqaribain**?",
+    "answer": "Shigar da haruffa biyu masu kusa da juna a wuri da hali, kamar 'قاف' da 'كاف'."
+  },
+  {
+    "question": "Menene **Hamzatul-Wasl**?",
+    "answer": "Hamza da ake karantawa a farkon kalma, amma ba a karantawa idan an haɗa ta da gabaninta."
+  },
+  {
+    "question": "Menene **Hamzatul-Qat'**?",
+    "answer": "Hamza da ake karantawa a kowane hali, ko an fara da ita ko an haɗa ta."
+  },
+  {
+    "question": "Yaushe **Hamzatul-Wasl** ke zama Kasra?",
+    "answer": "Idan harafi na uku na fi'ili yana da Kasra."
+  },
+  {
+    "question": "Yaushe **Hamzatul-Wasl** ke zama Damma?",
+    "answer": "Idan harafi na uku na fi'ili yana da Damma ta asali."
+  },
+  {
+    "question": "Menene **Sukun** a Tajweed?",
+    "answer": "Alamace da ke nuna cewa harafi ba ya motsi (ba shi da Fatha, Kasra, ko Damma)."
+  },
+  {
+    "question": "Menene **Tashdid**?",
+    "answer": "Alamar da ke nuna cewa harafi biyu ne, na farko Sakinah, na biyu mai motsi, kuma an shigar da su juna."
+  },
+  {
+    "question": "Menene hukuncin harafin 'Noon' da 'Meem' mai Tashdid?",
+    "answer": "Suna da mafi cikakken Ghunnah (Haraka biyu)."
+  },
+  {
+    "question": "Menene ma'anar 'Tarteel'?",
+    "answer": "Karatun Al-Qur'ani a hankali, tare da inganta Tajweed da tadabburi."
+  },
+  {
+    "question": "Wane ne ya fi buƙatar karanta Al-Qur'ani da **Tarteel**?",
+    "answer": "Kowanne mai karatu, amma musamman mai hifz ko koyarwa."
+  },
+  {
+    "question": "Menene **Izhar Qamariyyah**?",
+    "answer": "Bayyana Lam na 'Al' a gaban haruffa na wata (wato (**ابغ حجك وخف عقيمه**))."
+  },
+  {
+    "question": "Menene **Idgham Shamsiyyah**?",
+    "answer": "Shigar da Lam na 'Al' cikin haruffa na rana (ragowar haruffa goma sha huɗu)."
+  },
+  {
+    "question": "Menene **Saktah**?",
+    "answer": "Tsayawa na ɗan gajeren lokaci (bai fi Haraka biyu ba) ba tare da numfashi ba."
+  },
+  {
+    "question": "Akwai wuraren **Saktah** nawa a ruwayar Hafs?",
+    "answer": "Akwai guda huɗu (4)."
+  },
+  {
+    "question": "Yaya ake yin **Qalqalah Sughra**?",
+    "answer": "Tana da rauni; tana faruwa ne a tsakiyar kalma (kuma ba a tsaya a kanta)."
+  },
+  {
+    "question": "Me ya bambanta **Qalqalah Kubra** da **Sughra**?",
+    "answer": "Kubra tana da ƙarfi, tana faruwa a ƙarshen kalma kuma an tsaya a kanta."
+  },
+  {
+    "question": "Menene **Hams**?",
+    "answer": "Yin numfashi a lokacin furucin haruffa (haruffa 10)."
+  },
+  {
+    "question": "Menene **Jahr**?",
+    "answer": "Ƙarfin sauti a lokacin furucin haruffa (ragowar haruffa)."
+  },
+  {
+    "question": "Menene **Shiddah**?",
+    "answer": "Ƙarfin tsayawa; ƙarancin sauti yana gudana (haruffa 8)."
+  },
+  {
+    "question": "Menene **Rakhawa**?",
+    "answer": "Gudun sauti; raunin tsayawa (mafi yawan haruffa)."
+  },
+  {
+    "question": "Menene **Tawassut**?",
+    "answer": "Tsaka-tsaki; ba Shiddah ba ne kuma ba Rakhawa ba ne (haruffa 5: **لن عمر**)."
+  },
+  {
+    "question": "Menene **Istila**?",
+    "answer": "Ɗaga harshe sama zuwa ga dama a lokacin furucin harafin (haruffa 7 na Tafkhim)."
+  },
+  {
+    "question": "Menene **Istifal**?",
+    "answer": "Saukar da harshe ƙasa a lokacin furucin harafin (sauran haruffa)."
+  },
+  {
+    "question": "Menene **Itbaq**?",
+    "answer": "Matse harshe da rufin baki a lokacin furucin harafin (haruffa 4: **ص ض ط ظ**)."
+  },
+  {
+    "question": "Menene **Infitah**?",
+    "answer": "Buɗe tsakanin harshe da rufin baki a lokacin furucin harafin (sauran haruffa)."
+  },
+  {
+    "question": "Menene **Ismat**?",
+    "answer": "Nauyin harafi; wanda ke fitowa daga nesa (haruffa 22)."
+  },
+  {
+    "question": "Menene **Idhlaq**?",
+    "answer": "Sauƙin harafi; wanda ke fitowa daga gaba (haruffa 6: **فر من لب**)."
+  },
+  {
+    "question": "Menene **Safir**?",
+    "answer": "Sautin kurciya; karar da ke fitowa tsakanin haƙora (haruffa 3: **ص ز س**)."
+  },
+  {
+    "question": "Menene **Lin**?",
+    "answer": "Sauƙi; fitar harafin Wawu da Ya' mai sukuni gabaninsu Fatha cikin sauƙi."
+  },
+  {
+    "question": "Menene **Inhiraf**?",
+    "answer": "Karkatar sauti daga wurin fitar harufan 'Lam' da 'Raa'."
+  },
+  {
+    "question": "Menene **Takrir**?",
+    "answer": "Maimaita sauti; yana faruwa ne a harafin **Raa**."
+  },
+  {
+    "question": "Menene **Tafashshi**?",
+    "answer": "Yaɗuwar sauti a cikin baki; yana faruwa ne a harafin **Shin (ش)**."
+  },
+  {
+    "question": "Menene **Istitla**?",
+    "answer": "Dogon sauti (tsawon gefen harshe); yana faruwa ne a harafin **Daad (ض)**."
+  },
+  {
+    "question": "Menene **Madd Silah Sughra**?",
+    "answer": "Dogon sauti (Haraka biyu) na ha' na sunan namiji idan babu Hamzah a gabansa."
+  },
+  {
+    "question": "Menene **Madd Silah Kubra**?",
+    "answer": "Dogon sauti (Haraka 4/5) na ha' na sunan namiji idan Hamzah mai motsi tana biye da shi."
+  },
+  {
+    "question": "Akwai bambanci tsakanin **Noon Sakinah** da **Tanween** a Tajweed?",
+    "answer": "A'a, hukunce-hukuncensu iri ɗaya ne a Tajweed."
+  },
+  {
+    "question": "Menene **Ikhtilas** a Tajweed?",
+    "answer": "Gaggauta karatun motsin harafi amma tare da bayyana 2/3 na motsin sa (a wasu ruwayoyi)."
+  },
+  {
+    "question": "Menene **Ishmam** a Tajweed?",
+    "answer": "Yi nuni da leɓɓa ga Damma ba tare da sauti ba (a wasu kalmomi na wasu ruwayoyi)."
+  },
+  {
+    "question": "Yaya ake gane **Makharij al-Huruf**?",
+    "answer": "A sanya sukuni ga harafin, sannan a sanya Hamza mai motsi a gabansa, sannan a furta shi."
+  },
+  {
+    "question": "Wane hukunci ne na **Noon Sakinah** a gaban haruffan 'Yarmaloon'?",
+    "answer": "**Idgham**."
+  },
+  {
+    "question": "Wane hukunci ne na **Noon Sakinah** a gaban haruffan **Halq**?",
+    "answer": "**Izhar Halqi**."
+  },
+  {
+    "question": "Wane hukunci ne na **Meem Sakinah** a gaban harafin **Fa (ف)**?",
+    "answer": "**Izhar Shafawi**."
+  },
+  {
+    "question": "Wane ne **Rawi** (Mai Ruwaya) na karatun da muka fi karantawa a yau?",
+    "answer": "**Hafs** daga Imam Asim."
+  },
+  {
+    "question": "Menene **Basmalah**?",
+    "answer": "Fadawa 'Bismillahir Rahmanir Raheem' a farkon surah."
+  },
+  {
+    "question": "Menene **Istia'zah**?",
+    "answer": "Fadawa 'A'udhu billahi minash-shayɗanir-rajeem' kafin farawa."
+  },
+  {
+    "question": "Menene hukuncin karatun gajeren sauti kamar dogon sauti?",
+    "answer": "Babban kuskure ne (Lahn Jalii) wanda zai iya ɓata ma'anar."
+  },
+  {
+    "question": "Menene **Lahn Jalii**?",
+    "answer": "Babban kuskure wanda ya shafi lafazin kalma kuma kowa zai iya ganewa."
+  },
+  {
+    "question": "Menene **Lahn Khafii**?",
+    "answer": "Ƙaramin kuskure wanda ya shafi Tajweed kuma masanan Tajweed ne kawai ke ganewa."
+  },
+  {
+    "question": "Menene ma'anar **Tarkib** a Tajweed?",
+    "answer": "Hada karatun surah biyu ba tare da tsayawa ba."
+  },
+  {
+    "question": "Menene **Ayyat**?",
+    "answer": "Kowacce jimla ta Al-Qur'ani mai tsarki."
+  },
+  {
+    "question": "Haruffan **Istila** nawa ne ke da **Itbaq**?",
+    "answer": "Guda huɗu: **ص ض ط ظ**."
+  },
+  {
+    "question": "Wane ne ya rubuta littafin **'Muqaddimatul Jazariyya'** a Tajweed?",
+    "answer": "Imam Ibn Al-Jazariy."
+  }
+]

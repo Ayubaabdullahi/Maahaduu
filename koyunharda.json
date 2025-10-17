@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Menene ma'anar 'Hifz'?",
+    "answer": "Hifz shine haddar Al-Qur'ani."
+  },
+  {
+    "question": "Menene 'Muraja’ah'?",
+    "answer": "Muraja’ah shine maimaita surori da aka haddace don tabbatar da ba a manta ba."
+  },
+  {
+    "question": "Wane ne ya fi buƙatar muraja’ah, mai hifz ko wanda ba shi da hifz?",
+    "answer": "Mai hifz ne ya fi buƙatar muraja’ah."
+  },
+  {
+    "question": "Menene fa'idar muraja’ah?",
+    "answer": "Muraja’ah tana taimakawa wajen kiyaye haddar Al-Qur'ani."
+  },
+  {
+    "question": "Yaya ake tsara lokacin muraja’ah?",
+    "answer": "A tsara shi yadda zai dace da jadawalin mutum, ko da kuwa kaɗan ne a kowace rana."
+  },
+  {
+    "question": "Menene illar rashin muraja’ah?",
+    "answer": "Rashin muraja’ah na sa mutum ya manta abin da ya haddace."
+  },
+  {
+    "question": "Wane surah ne aka fi so a fara muraja’ah da shi?",
+    "answer": "Za a iya farawa da surah Fatiha ko surori na ƙarshen Al-Qur'ani."
+  },
+  {
+    "question": "Shin za a iya yin muraja’ah a hankali?",
+    "answer": "I, za a iya yin muraja’ah a hankali, muhimmin abu shine a tabbatar da an maida hankali."
+  },
+  {
+    "question": "Menene 'Tajweed'?",
+    "answer": "Tajweed shine ilimin da ke nuna yadda za a karanta Al-Qur'ani daidai."
+  },
+  {
+    "question": "Menene ma'anar 'Ikhlas' a koyon Al-Qur'ani?",
+    "answer": "Ikhlas shine yin aiki don neman yardar Allah kaɗai."
+  },
+  {
+    "question": "Menene hukuncin haddar Al-Qur'ani?",
+    "answer": "Haddar Al-Qur'ani farali ne akan Al'ummar Musulmi gaba ɗaya, kuma mustahabbi ne ga kowanne mutum."
+  },
+  {
+    "question": "Menene ladan mai haddar Al-Qur'ani?",
+    "answer": "Ladan mai haddar Al-Qur'ani yana da girma, harma zai shiga Aljannah."
+  },
+  {
+    "question": "Menene hukuncin barin muraja’ah bayan an gama hadda?",
+    "answer": "Hukuncin barin muraja’ah bayan hadda zai sa a manta haddar."
+  },
+  {
+    "question": "Menene ma'anar 'Ruwaya' a Al-Qur'ani?",
+    "answer": "Ruwaya ita ce sanin jerin mutanen da suka karɓi karatun Al-Qur'ani."
+  },
+  {
+    "question": "Me ya sa Ikhlas yake da muhimmanci a koyon Al-Qur'ani?",
+    "answer": "Ikhlas yana sa a samu lada mai yawa."
+  },
+  {
+    "question": "Ta yaya za a gyara kuskuren tajweed?",
+    "answer": "Za a gyara shi ta hanyar yin karatu a gaban malami ko mai hifz."
+  },
+  {
+    "question": "Shin mutum zai iya koyon Al-Qur'ani ta yanar gizo?",
+    "answer": "I, zai iya, amma yana da kyau a samu malami na zahiri."
+  },
+  {
+    "question": "Menene 'Idgham'?",
+    "answer": "Idgham shine shigar da harafi ɗaya cikin ɗayan."
+  },
+  {
+    "question": "Menene 'Ikhfa'?",
+    "answer": "Ikhfa shine ɓoye sautin harafi a gaban wasu haruffa."
+  },
+  {
+    "question": "Menene 'Izhar'?",
+    "answer": "Izhar shine bayyana sautin harafi ba tare da ɓoyewa ko shigarwa ba."
+  },
+  {
+    "question": "Wane ne mutum mafi alkhairi a cikin Al-Qur'ani?",
+    "answer": "Manzon Allah (SAW) yace mafi alkhairinku shine wanda ya koyi Al-Qur'ani, kuma ya koyar da shi."
+  },
+  {
+    "question": "Menene 'Qalqalah'?",
+    "answer": "Qalqalah shine yin sauti mai raɗaɗi ga wasu haruffa lokacin da suke da sukuni."
+  },
+  {
+    "question": "Yaya ake yin muraja’ah da kyau?",
+    "answer": "Za a maida hankali sosai, kuma a riƙa karatu a hankali, don fahimta."
+  },
+  {
+    "question": "Menene hukuncin yin riya a koyon Al-Qur'ani?",
+    "answer": "Riya tana ɓata ladan aikin mutum."
+  },
+  {
+    "question": "Menene 'Madd'?",
+    "answer": "Madd shine dogon sauti a wasu haruffa."
+  },
+  {
+    "question": "Menene 'Ghunnah'?",
+    "answer": "Ghunnah shine sauti mai fita daga hanci."
+  },
+  {
+    "question": "Menene 'Lam'ul-Jalalah'?",
+    "answer": "Lam'ul-Jalalah shine Lam na sunan Allah."
+  },
+  {
+    "question": "Menene 'Rawi'?",
+    "answer": "Rawi shine mai bayyana ruwaya."
+  },
+  {
+    "question": "Menene 'Waqf'?",
+    "answer": "Waqf shine tsayawa a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Ibtida'?",
+    "answer": "Ibtida shine fara karatu bayan an tsaya."
+  },
+  {
+    "question": "Menene 'Sukun'?",
+    "answer": "Sukun shine tsayawa kan harafi ba tare da hira ba."
+  },
+  {
+    "question": "Wane mataki ne na farko wajen koyon Al-Qur'ani?",
+    "answer": "Mataki na farko shine koyon haruffa da ka'idojin tajweed."
+  },
+  {
+    "question": "Menene hukuncin haddace Al-Qur'ani da riya?",
+    "answer": "Mutum zai rasa ladan sa, har ma ya shiga wutar jahannama."
+  },
+  {
+    "question": "Ta yaya za a ƙarfafa hifz?",
+    "answer": "Za a ƙarfafa hifz da yawan maimaitawa da karatu."
+  },
+  {
+    "question": "Menene 'Mutashabihat'?",
+    "answer": "Mutashabihat shine wajen da ayoyi suke kama da juna a wasu wurare."
+  },
+  {
+    "question": "Yaya ake gane 'Mutashabihat'?",
+    "answer": "A rika maida hankali sosai, kuma a rika yin muraja’ah akai-akai."
+  },
+  {
+    "question": "Menene 'Qira'at'?",
+    "answer": "Qira'at shine hanyoyin karatun Al-Qur'ani da suka inganta."
+  },
+  {
+    "question": "Menene 'Qalqalah'?",
+    "answer": "Qalqalah shine raɗaɗin sautin harafi a lokacin sukuni."
+  },
+  {
+    "question": "Menene hukuncin kuskuren karatu a sallah?",
+    "answer": "Zai iya ɓata sallah, idan ba a gyara shi ba."
+  },
+  {
+    "question": "Menene 'Mud'am'?",
+    "answer": "Mud'am shine harafin da aka shigar da shi cikin wani harafin."
+  },
+  {
+    "question": "Menene 'Mud'ghal'?",
+    "answer": "Mud'ghal shine harafin da ya shiga cikin wani harafin."
+  },
+  {
+    "question": "Menene 'Idgham Saghir'?",
+    "answer": "Idgham Saghir shine shigar da harafi mai sukuni cikin harafi mai hira."
+  },
+  {
+    "question": "Menene 'Idgham Kabir'?",
+    "answer": "Idgham Kabir shine shigar da harafi mai hira cikin harafi mai hira."
+  },
+  {
+    "question": "Menene 'Lam'ul-Fi'l'?",
+    "answer": "Lam'ul-Fi'l shine Lam da ya zo a cikin fi'ili."
+  },
+  {
+    "question": "Menene 'Lam'ul-Ism'?",
+    "answer": "Lam'ul-Ism shine Lam da ya zo a cikin suna."
+  },
+  {
+    "question": "Menene 'Lam'ul-Harf'?",
+    "answer": "Lam'ul-Harf shine Lam da ya zo a cikin harfi."
+  },
+  {
+    "question": "Menene 'Alif'?",
+    "answer": "Alif shine harafin da ba ya da sauti."
+  },
+  {
+    "question": "Menene 'Hamzah'?",
+    "answer": "Hamzah shine harafin da yake da sauti."
+  },
+  {
+    "question": "Menene 'Makharij'?",
+    "answer": "Makharij shine wuraren da haruffa suke fitowa."
+  },
+  {
+    "question": "Menene 'Sifat'?",
+    "answer": "Sifat shine halayen haruffa."
+  },
+  {
+    "question": "Menene ma'anar 'Ikhlas' a rayuwar mutum?",
+    "answer": "Ikhlas shine yadda mutum yake rayuwa don Allah, ba don mutane ba."
+  },
+  {
+    "question": "Yaya za a samu Ikhlas a koyon Al-Qur'ani?",
+    "answer": "Ta hanyar neman taimakon Allah da addu'a."
+  },
+  {
+    "question": "Menene ladan koyar da Al-Qur'ani?",
+    "answer": "Ana samun lada mai yawa, har ma ana hada shi da ladan mai hadda."
+  },
+  {
+    "question": "Menene 'Wa'd'?",
+    "answer": "Wa'd shine alƙawarin Allah na ba da lada mai yawa."
+  },
+  {
+    "question": "Menene 'Wa'id'?",
+    "answer": "Wa'id shine alƙawarin Allah na azaba."
+  },
+  {
+    "question": "Menene 'Iftah'?",
+    "answer": "Iftah shine fara karatu da 'Bismillah'."
+  },
+  {
+    "question": "Menene 'Ismal'?",
+    "answer": "Ismal shine karkatar da baki a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Imalah'?",
+    "answer": "Imalah shine karkatar da baki a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Tafkhim'?",
+    "answer": "Tafkhim shine cika baki da sauti."
+  },
+  {
+    "question": "Menene 'Tarqiq'?",
+    "answer": "Tarqiq shine rage cikar baki da sauti."
+  },
+  {
+    "question": "Menene 'Wasilah'?",
+    "answer": "Wasilah shine hanyar haɗa kalmomi a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Sila'?",
+    "answer": "Sila shine haɗa kalmomi a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Sada'?",
+    "answer": "Sada shine yin kara a lokacin karatu."
+  },
+  {
+    "question": "Menene 'Zuhd' a koyon Al-Qur'ani?",
+    "answer": "Zuhd shine barin neman duniya saboda neman lada."
+  },
+  {
+    "question": "Menene 'Wara'?",
+    "answer": "Wara' shine kiyaye kai daga dukkan abubuwan da zasu iya ɓata aiki."
+  },
+  {
+    "question": "Menene 'Taqwa'?",
+    "answer": "Taqwa shine tsoron Allah da kiyaye umarninsa."
+  },
+  {
+    "question": "Menene 'Tawakkul'?",
+    "answer": "Tawakkul shine dogaro ga Allah a kowanne lokaci."
+  },
+  {
+    "question": "Menene 'Ihsan'?",
+    "answer": "Ihsan shine yin aiki kamar kana ganin Allah."
+  },
+  {
+    "question": "Menene 'Tadhkirah'?",
+    "answer": "Tadhkirah shine tunawa da Al-Qur'ani a kowanne lokaci."
+  },
+  {
+    "question": "Menene 'Tadabbur'?",
+    "answer": "Tadabbur shine fahimtar ma'anar Al-Qur'ani."
+  },
+  {
+    "question": "Menene 'Tafsir'?",
+    "answer": "Tafsir shine bayanin ma'anar Al-Qur'ani."
+  },
+  {
+    "question": "Menene 'Tarjama'?",
+    "answer": "Tarjama shine fassarar Al-Qur'ani."
+  },
+  {
+    "question": "Menene 'Tilawa'?",
+    "answer": "Tilawa shine karatun Al-Qur'ani."
+  },
+  {
+    "question": "Menene 'Tajwid'?",
+    "answer": "Tajwid shine ilimin da ke nuna yadda za a karanta Al-Qur'ani daidai."
+  },
+  {
+    "question": "Menene 'Hifzul-Lisan'?",
+    "answer": "Hifzul-Lisan shine kiyaye harshe daga maganar banza."
+  },
+  {
+    "question": "Menene 'Hifzul-Qalb'?",
+    "answer": "Hifzul-Qalb shine kiyaye zuciya daga mugun nufi."
+  },
+  {
+    "question": "Menene 'Hifzul-Jawarih'?",
+    "answer": "Hifzul-Jawarih shine kiyaye sassan jiki daga zunubi."
+  },
+  {
+    "question": "Menene 'Hifzul-Bayan'?",
+    "answer": "Hifzul-Bayan shine kiyaye bayanin da mutum ya bayar."
+  },
+  {
+    "question": "Menene 'Hifzul-Waqt'?",
+    "answer": "Hifzul-Waqt shine kiyaye lokaci daga ɓata lokaci."
+  },
+  {
+    "question": "Menene 'Hifzul-Mal'?",
+    "answer": "Hifzul-Mal shine kiyaye dukiya daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Nafsi'?",
+    "answer": "Hifzul-Nafsi shine kiyaye rai daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Din'?",
+    "answer": "Hifzul-Din shine kiyaye addini daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Dunya'?",
+    "answer": "Hifzul-Dunya shine kiyaye duniya daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Akhira'?",
+    "answer": "Hifzul-Akhira shine kiyaye lahira daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Ilm'?",
+    "answer": "Hifzul-Ilm shine kiyaye ilimi daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Amal'?",
+    "answer": "Hifzul-Amal shine kiyaye aiki daga ɓata."
+  },
+  {
+    "question": "Menene 'Hifzul-Qur'an'?",
+    "answer": "Hifzul-Qur'an shine kiyaye Al-Qur'ani daga ɓata."
+  },
+  {
+    "question": "Menene 'Tawhid'?",
+    "answer": "Tawhid shine tabbatar da Allah shine kaɗai wanda ya cancanci a bauta masa."
+  },
+  {
+    "question": "Menene 'Shirk'?",
+    "answer": "Shirk shine bautar da wani bayan Allah."
+  },
+  {
+    "question": "Menene 'Bid'ah'?",
+    "answer": "Bid'ah shine ƙirƙirar sabon abu a addini."
+  },
+  {
+    "question": "Menene 'Sunnah'?",
+    "answer": "Sunnah shine aikin Manzon Allah (SAW) da maganarsa."
+  },
+  {
+    "question": "Menene 'Hadith'?",
+    "answer": "Hadith shine maganar Manzon Allah (SAW)."
+  },
+  {
+    "question": "Menene 'Fiqh'?",
+    "answer": "Fiqh shine ilimin addini da ya shafi hukunce-hukuncen ibadu."
+  },
+  {
+    "question": "Menene 'Usool'?",
+    "answer": "Usool shine tushen ilimi."
+  },
+  {
+    "question": "Menene 'Ijtihad'?",
+    "answer": "Ijtihad shine ƙoƙarin malami wajen gano hukunci."
+  },
+  {
+    "question": "Menene 'Qiyas'?",
+    "answer": "Qiyas shine auna hukunci da wani hukunci."
+  },
+  {
+    "question": "Menene 'Ijma'?",
+    "answer": "Ijma' shine haɗewar ra'ayin malamai a kan wani abu."
+  },
+  {
+    "question": "Menene 'Istihsan'?",
+    "answer": "Istihsan shine kyautata zabi."
+  },
+  {
+    "question": "Menene 'Istis'hab'?",
+    "answer": "Istis'hab shine tabbatar da hukunci har sai an samu sabon hukunci."
+  },
+  {
+    "question": "Menene 'Maslahah'?",
+    "answer": "Maslahah shine amfanin jama'a."
+  },
+  {
+    "question": "Menene 'Qada'?",
+    "answer": "Qada' shine hukuncin Allah."
+  },
+  {
+    "question": "Menene 'Qadar'?",
+    "answer": "Qadar shine ƙaddara ta Allah."
+  },
+  {
+    "question": "Menene 'Tawakkul' a koyon Al-Qur'ani?",
+    "answer": "Tawakkul shine dogaro ga Allah don samun nasara."
+  },
+  {
+    "question": "Menene 'Qudwah'?",
+    "answer": "Qudwah shine misali mai kyau."
+  },
+  {
+    "question": "Menene 'Sabr'?",
+    "answer": "Sabr shine haƙuri a kan jarabawa."
+  },
+  {
+    "question": "Menene 'Shukur'?",
+    "answer": "Shukur shine godiya ga Allah."
+  },
+  {
+    "question": "Menene 'Ibadah'?",
+    "answer": "Ibadah shine bautar Allah."
+  },
+  {
+    "question": "Menene 'Niyyah'?",
+    "answer": "Niyyah shine niyyar aiki."
+  }
+]
