@@ -20,6 +20,7 @@
   <meta property="og:type" content="website">
   <link rel="icon" href="mlogo.jpg" type="image/jpeg">
   <script type="application/ld+json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
@@ -43,6 +44,15 @@
     "https://youtube.com/@maahaduschool",
     "https://www.tiktok.com/@maahadu.taffizu.h"
   ]
+}
+    footer {
+  background: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 </script>
   <style>
@@ -270,6 +280,55 @@ img, video {
     padding: 8px 10px;
   }
 }
+    /* ===== GENERAL RESPONSIVE FIX ===== */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ta hana abubuwa su fita wajen page */
+* {
+  box-sizing: inherit;
+  max-width: 100%;
+}
+
+/* Don text da images su zauna daidai */
+img, video {
+  width: 100%;
+  height: auto;
+}
+
+/* ======== LAPTOP & DESKTOP VIEW ======== */
+@media (min-width: 768px) {
+  .container, .section, .info-card, .content {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
+
+/* ======== MOBILE VIEW ======== */
+@media (max-width: 767px) {
+  .container, .section, .info-card, .content {
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.3rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+             }
     
   </style>
 </head>
