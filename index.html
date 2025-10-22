@@ -1,4 +1,4 @@
- <!doctype html>
+here<!doctype html>
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -21,9 +21,6 @@
   <meta property="og:type" content="website">
   <link rel="icon" href="mlogo.jpg" type="image/jpeg">
   <script type="application/ld+json">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
@@ -48,16 +45,7 @@
     "https://www.tiktok.com/@maahadu.taffizu.h"
   ]
 }
-    footer {
-  background: #001f3f;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-</script>
+  </script>
   <style>
     :root{
       --main-blue: #1e90ff;
@@ -69,36 +57,30 @@
       --shadow: 0 18px 48px rgba(2,6,23,0.08);
       --maxw:1200px;
       --radius:14px;
+      --green:#0A5F43;
+      --bg:#FBFBFA;
     }
     *{box-sizing:border-box}
     html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:linear-gradient(135deg,#f4f7fa,#e9f1fb);color:#10202b;-webkit-font-smoothing:antialiased;overflow-x:hidden}
     a{color:inherit;text-decoration:none}
     .wrap{max-width:var(--maxw);margin:18px auto;padding:14px}
-
-    /* TOP ROW */
     .top-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
     .brand-left{display:flex;align-items:center;gap:14px}
     .logo-space{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--card),#eef7ff);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(2,6,23,0.06);border:2px solid rgba(30,144,255,0.12);overflow:hidden}
     .logo-space img{width:100%;height:100%;object-fit:cover}
     .school-abbr{font-weight:900;color:var(--main-blue);font-size:20px}
     .muted-small{color:var(--muted);font-size:13px}
-
-    /* right tools */
     .right-tools{display:flex;gap:12px;align-items:center}
     .phone-call{font-weight:800;color:var(--main-blue)}
     .hambtn{width:54px;height:54px;border-radius:12px;background:var(--card);display:inline-flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(2,6,23,0.08);border:1px solid rgba(0,0,0,0.06);cursor:pointer;z-index:2300}
     .hambtn span{display:block;width:24px;height:2px;background:var(--main-blue);position:relative}
     .hambtn span::before,.hambtn span::after{content:"";position:absolute;left:0;width:24px;height:2px;background:var(--main-blue)}
     .hambtn span::before{top:-7px} .hambtn span::after{top:7px}
-
-    /* drawer */
     #drawer{position:fixed;right:-100%;top:0;width:25%;height:100vh;background:var(--card);box-shadow:-28px 0 80px rgba(2,6,23,0.14);transition:right .34s;padding:20px;z-index:2200;overflow:auto}
     #drawer .close{background:none;border:0;font-size:22px;cursor:pointer;float:right}
     #drawer nav{display:flex;flex-direction:column;gap:10px;margin-top:28px}
     #drawer a{padding:12px 10px;border-radius:10px;font-weight:800;color:var(--main-blue);border:1px solid rgba(0,0,0,0.04);background:linear-gradient(180deg,var(--card),#fbfdff)}
     #drawer a:hover{background:linear-gradient(90deg,var(--accent),#fff);color:#06263b}
-
-    /* HERO (image + text overlay) */
     .hero{position:relative;border-radius:18px;padding:0;color:white;overflow:hidden;box-shadow:var(--shadow);min-height:380px;display:flex;align-items:center;justify-content:center}
     .hero-img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.6)}
     .hero-overlay{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;z-index:3;padding:20px}
@@ -107,25 +89,16 @@
     .hero-card h1{font-size:28px;margin:12px 0 8px;font-weight:900;text-shadow:0 8px 30px rgba(0,0,0,0.45);animation:slideRightIn .9s ease}
     .hero-card p{max-width:920px;margin:8px auto;color:rgba(255,255,255,0.95);line-height:1.6;animation:fadeInUp 1.2s ease}
     .hero-buttons{display:flex;gap:12px;justify-content:center;margin-top:12px}
-
     @keyframes slideRightIn {from{transform:translateX(80px);opacity:0} to{transform:translateX(0);opacity:1}}
     @keyframes fadeInUp {from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1}}
-
-    /* trust row near hero */
     .trust-row{display:flex;gap:12px;justify-content:center;margin-top:18px;flex-wrap:wrap;z-index:4;position:relative}
     .trust-card{background:rgba(255,255,255,0.95);padding:12px;border-radius:12px;text-align:center;box-shadow:0 10px 28px rgba(2,6,23,0.06);min-width:180px}
     .trust-card .num{font-size:20px;font-weight:900;color:var(--main-blue)}
     .trust-card .label{font-size:13px;color:var(--muted);margin-top:6px}
-
-    /* main grid */
     .main-grid{display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:22px}
-    @media (max-width:1000px){.main-grid{grid-template-columns:1fr}}
-
     .content-card{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);overflow:hidden}
     .section-title{display:flex;justify-content:space-between;align-items:end;gap:8px}
     .section-title h2{margin:0;color:var(--main-blue)}
-
-    /* VIP history style (presidential) */
     .vip{padding:20px;border-radius:12px;background:linear-gradient(180deg,var(--card),#fbfdff);border-left:6px solid var(--gold);box-shadow:0 12px 36px rgba(2,6,23,0.06)}
     .vip h3{margin:0 0 8px;color:#0b3a66;font-size:20px}
     .vip .meta{color:var(--muted);font-size:14px;margin-bottom:12px}
@@ -134,14 +107,10 @@
     .vip .sep .label{font-weight:900;color:var(--main-blue);min-width:120px}
     .vip .sep .line{flex:1;height:3px;background:linear-gradient(90deg,var(--main-blue),#e8f6ff);border-radius:6px}
     .vip .honor{margin-top:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg,#fff9ed,#fff7e6);border:1px solid rgba(212,175,55,0.12);font-weight:800;color:#6b4f00}
-
-    /* Accordion for history */
     .accordion {margin-top:12px}
     .accordion-item {border-bottom:1px solid rgba(0,0,0,0.08)}
     .accordion-title {cursor:pointer;padding:10px;background:linear-gradient(90deg,var(--aqua),var(--accent));color:white;font-weight:800;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center}
     .accordion-content {display:none;padding:10px;background:var(--card);line-height:1.8}
-
-    /* banners list */
     .banners{display:flex;flex-direction:column;gap:16px;margin-top:16px}
     .banner{display:flex;gap:14px;align-items:center;background:var(--card);padding:12px;border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,0.06);overflow:hidden}
     .banner img{width:36%;min-width:220px;height:160px;object-fit:cover;border-radius:10px;transform:translateX(80px);opacity:0;transition:all .7s ease;border:1px solid rgba(0,0,0,0.04)}
@@ -150,10 +119,7 @@
     .banner h3{color:var(--main-blue);margin:0 0 8px}
     .banner p{color:var(--muted);line-height:1.6}
     .banner .btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:10px;font-weight:800;background:linear-gradient(90deg,var(--aqua),var(--accent));color:white;animation:seaWave 4s ease-in-out infinite}
-
     @keyframes seaWave {0%{background:linear-gradient(90deg,var(--aqua),var(--accent)); transform:scale(1)} 50%{background:linear-gradient(90deg,var(--accent),var(--aqua)); transform:scale(1.05)} 100%{background:linear-gradient(90deg,var(--aqua),var(--accent)); transform:scale(1)}}
-
-    /* donation & payment */
     .donation{display:flex;gap:12px;align-items:flex-start;margin-top:12px;flex-wrap:wrap}
     .don-card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(0,0,0,0.04);box-shadow:var(--shadow);min-width:260px}
     .don-card h4{color:var(--main-blue);margin-top:0}
@@ -163,68 +129,49 @@
     .confirm-form .submit-ws{background:linear-gradient(90deg,var(--gold),#f0c96b);border:0;padding:10px 14px;border-radius:10px;font-weight:800;color:#06263b;cursor:pointer;margin-top:8px;display:block;width:100%;animation:seaWave 4s ease-in-out infinite}
     .pay-form input{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-top:8px}
     .pay-form .submit-ws{background:var(--main-blue);color:white;border:0;padding:10px 12px;border-radius:8px;cursor:pointer;font-weight:800;margin-top:8px;display:block;width:100%;animation:seaWave 4s ease-in-out infinite}
-
-    /* gallery */
     .gallery{display:flex;flex-direction:column;gap:10px}
     .gallery-main{height:260px;border-radius:10px;overflow:hidden;box-shadow:0 12px 30px rgba(2,6,23,0.08)}
     .gallery-main img{width:100%;height:100%;object-fit:cover;display:block}
     .thumbs{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap}
     .thumbs img{width:calc(25% - 6px);height:80px;object-fit:cover;border-radius:8px;cursor:pointer;border:3px solid transparent}
     .thumbs img.active{border-color:var(--main-blue)}
-
-    /* right panel */
     .info-card{background:var(--card);padding:14px;border-radius:12px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);margin-bottom:12px}
     .prompt-btn{display:block;width:100%;text-align:left;padding:10px;border-radius:8px;border:2px solid rgba(30,144,255,0.06);background:transparent;margin-bottom:8px;font-weight:800;color:#ffffff;cursor:pointer;animation:seaWave 4s ease-in-out infinite}
-
-    /* AI Chat Styles */
     .ai-chat {background:var(--card);padding:10px;border-radius:8px}
     .ai-chat input {width:100%;padding:8px;margin-bottom:8px;border:1px solid rgba(0,0,0,0.08);border-radius:6px}
     .ai-chat button {background:var(--main-blue);color:white;padding:8px 12px;border:0;border-radius:6px;cursor:pointer}
     .ai-response {margin-top:10px;color:#10202b;background:transparent;padding:10px;border:1px solid var(--main-blue);border-radius:6px}
-
-    /* spiritual boxes */
     .spirit-wrap{max-width:980px;margin:18px auto 0;display:flex;flex-direction:column;gap:12px;padding:0 12px}
     .qbox,.hbox{background:var(--card);color:#10202b;padding:14px;border-radius:10px;box-shadow:0 10px 30px rgba(2,6,23,0.06);border:1px solid rgba(0,0,0,0.04)}
     .qbox small,.hbox small{display:block;color:var(--muted);margin-top:8px;font-size:13px}
-
-    /* footer */
     footer{margin-top:22px;padding:14px;background:linear-gradient(90deg,#f4f7fa,#e9f1fb);color:#10202b;text-align:center;font-family:"Scheherazade",serif;font-size:18px;font-weight:800}
     .dev-info{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:8px;font-size:11px}
     .dev-img{width:40px;height:40px;border-radius:8px;object-fit:cover}
     .socials{display:flex;justify-content:center;gap:6px;margin-top:8px}
     .socials img{width:28px;height:28px;border-radius:6px;object-fit:cover}
-    
-    /* ADDED: Subtle Login Buttons Style */
-    .hidden-login {
-        margin-top: 10px;
-        /* Canza opacity: 0.2 don su fito kadan */
-        opacity: 0.2; 
-        transition: opacity 0.5s;
-    }
-    .hidden-login:hover {
-        /* Fully visible on hover */
-        opacity: 1.0; 
-    }
-    .hidden-login a {
-        color: var(--gold); /* Gold link for contrast */
-        text-decoration: none;
-        margin: 0 10px;
-        padding: 5px 10px;
-        border: 1px solid var(--gold);
-        border-radius: 5px;
-        font-size: 14px;
-        font-weight: 700;
-        display: inline-block;
-    }
-    .hidden-login a:hover {
-        background-color: var(--gold);
-        color: #004080;
-    }
-
-    /* reveal animations on scroll (from right) */
+    .hidden-login {margin-top: 10px;opacity: 0.2;transition: opacity 0.5s;}
+    .hidden-login:hover {opacity: 1.0;}
+    .hidden-login a {color: var(--gold);text-decoration: none;margin: 0 10px;padding: 5px 10px;border: 1px solid var(--gold);border-radius: 5px;font-size: 14px;font-weight: 700;display: inline-block;}
+    .hidden-login a:hover {background-color: var(--gold);color: #004080;}
     .reveal{opacity:0;transform:translateX(80px);transition:all .9s ease;will-change:opacity,transform}
     .reveal.show{opacity:1;transform:translateX(0)}
-
+    body {margin: 0;padding: 0;box-sizing: border-box;}
+    * {box-sizing: inherit;max-width: 100%;}
+    img, video {width: 100%;height: auto;}
+    .sidebar{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);height:calc(100vh - 80px);overflow:auto}
+    .player-card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);min-height:360px;display:flex;flex-direction:column}
+    .video-thumb{display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;cursor:pointer}
+    .video-thumb:hover{background:linear-gradient(90deg, rgba(10,95,67,0.03), rgba(0,0,0,0.02))}
+    .video-thumb.active{outline:2px solid var(--gold);background:rgba(250,244,230,0.7)}
+    .video-thumb img{width:110px;height:64px;object-fit:cover;border-radius:6px;flex:0 0 110px}
+    .video-title{font-size:14px;font-weight:600}
+    .video-meta{font-size:12px;color:var(--muted)}
+    .player-frame{width:100%;aspect-ratio:16/9;border-radius:8px;border:0}
+    .player-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .controls{display:flex;gap:8px;align-items:center}
+    .btn{background:var(--green);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+    .link{color:var(--green);text-decoration:none;font-weight:600}
+    .small{font-size:13px;color:var(--muted)}
     @media (max-width:900px){
       .hero{min-height:280px}
       .logo-space{width:76px;height:76px}
@@ -234,105 +181,36 @@
       .thumbs img{height:70px;width:calc(50% - 4px)}
       #drawer{width:75%}
     }
-/* RESPONSIVE DESIGN FIX */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-@media (max-width: 1024px) {
-  .container {
-    width: 95%;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-  header, nav, main, footer {
-    padding: 10px;
-  }
-  .grid {
-    display: block;
-  }
-}
-
-@media (max-width: 480px) {
-  h1, h2, h3 {
-    font-size: 1.2em;
-  }
-  p {
-    font-size: 14px;
-  }
-  button, a {
-    font-size: 14px;
-    padding: 8px 10px;
-  }
-}
-    /* ===== GENERAL RESPONSIVE FIX ===== */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Ta hana abubuwa su fita wajen page */
-* {
-  box-sizing: inherit;
-  max-width: 100%;
-}
-
-/* Don text da images su zauna daidai */
-img, video {
-  width: 100%;
-  height: auto;
-}
-
-/* ======== LAPTOP & DESKTOP VIEW ======== */
-@media (min-width: 768px) {
-  .container, .section, .info-card, .content {
-    max-width: 1100px;
-    margin: auto;
-  }
-
-  h1, h2, h3, h4, h5 {
-    text-align: center;
-  }
-
-  p {
-    line-height: 1.6;
-  }
-}
-
-/* ======== MOBILE VIEW ======== */
-@media (max-width: 767px) {
-  .container, .section, .info-card, .content {
-    padding: 10px;
-  }
-
-  h1, h2, h3 {
-    font-size: 1.3rem;
-  }
-
-  footer {
-    text-align: center;
-  }
-             }
-    
+    @media (max-width:1000px){.main-grid{grid-template-columns:1fr}}
+    @media (max-width:980px){
+      .wrap{grid-template-columns:1fr;gap:12px}
+      .sidebar{height:auto;order:2}
+      .player-card{order:1}
+    }
+    @media (max-width: 1024px) {
+      .wrap {width: 95%;}
+    }
+    @media (max-width: 768px) {
+      body {font-size: 16px;}
+      .wrap, nav, main, footer {padding: 10px;}
+      .main-grid {display: block;}
+    }
+    @media (max-width: 480px) {
+      h1, h2, h3 {font-size: 1.2em;}
+      p {font-size: 14px;}
+      button, a {font-size: 14px;padding: 8px 10px;}
+    }
+    @media (min-width: 768px) {
+      .wrap, .section, .info-card, .content {max-width: 1100px;margin: auto;}
+      h1, h2, h3, h4, h5 {text-align: center;}
+      p {line-height: 1.6;}
+    }
+    @media (max-width: 767px) {
+      .wrap, .section, .info-card, .content {padding: 10px;}
+      h1, h2, h3 {font-size: 1.3rem;}
+      footer {text-align: center;}
+    }
+    @keyframes fadeInUp {from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);}}
   </style>
 </head>
 <body>
@@ -683,44 +561,6 @@ TARIHIN GWANI</div>
       </div>
       
       <aside>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>Maahadu — Video Library</title>
-        <style>
-          :root{
-            --green:#0A5F43;
-            --gold:#CDAA5D;
-            --bg:#FBFBFA;
-            --muted:#6b6b6b;
-          }
-          *{box-sizing:border-box}
-          body{
-            margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-            background:var(--bg);color:#0b1220;
-            -webkit-font-smoothing:antialiased;
-          }
-          .wrap{max-width:1100px;margin:20px auto;padding:16px;display:grid;grid-template-columns:360px 1fr;gap:18px}
-          .sidebar{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);height:calc(100vh - 80px);overflow:auto}
-          .player-card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);min-height:360px;display:flex;flex-direction:column}
-          .video-thumb{display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;cursor:pointer}
-          .video-thumb:hover{background:linear-gradient(90deg, rgba(10,95,67,0.03), rgba(0,0,0,0.02))}
-          .video-thumb.active{outline:2px solid var(--gold);background:rgba(250,244,230,0.7)}
-          .video-thumb img{width:110px;height:64px;object-fit:cover;border-radius:6px;flex:0 0 110px}
-          .video-title{font-size:14px;font-weight:600}
-          .video-meta{font-size:12px;color:var(--muted)}
-          .player-frame{width:100%;aspect-ratio:16/9;border-radius:8px;border:0}
-          .player-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
-          .controls{display:flex;gap:8px;align-items:center}
-          .btn{background:var(--green);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
-          .link{color:var(--green);text-decoration:none;font-weight:600}
-          .small{font-size:13px;color:var(--muted)}
-          @media (max-width:980px){
-            .wrap{grid-template-columns:1fr;gap:12px}
-            .sidebar{height:auto;order:2}
-            .player-card{order:1}
-          }
-        </style>
-
         <div class="wrap" aria-live="polite">
           <aside class="sidebar" aria-label="Video list">
             <h3 style="margin:0 0 10px;color:var(--green)">Malamai da Darussa</h3>
@@ -765,27 +605,6 @@ TARIHIN GWANI</div>
           </main>
         </div>
 
-        <script defer>
-          const playlistId = 'PLNr8jcOcPHelYz2nZ8iHQKRzRAnC2RUZ6';
-          const channelId = 'UCIqYqTi36K3BH5aojZm5nEw';
-          
-          const player = document.getElementById('player');
-          const openOnYT = document.getElementById('openOnYT');
-          const subscribeBtn = document.getElementById('subscribeBtn');
-
-          // Set player source and link URLs using your IDs
-          player.src = `https://www.youtube.com/embed?listType=playlist&list=${playlistId}&rel=0&modestbranding=1`;
-          openOnYT.href = `https://www.youtube.com/playlist?list=${playlistId}`;
-          subscribeBtn.onclick = () => {
-              window.open(`https://www.youtube.com/channel/${channelId}`, '_blank');
-          };
-
-          // Accessibility: ensure focus ring visible
-          document.addEventListener('keydown', (e) => {
-            if(e.key === 'Tab') document.body.classList.add('show-focus');
-          });
-        </script>
-
         <div class="info-card reveal">
           <h4>Ask AI Assistant</h4>
           <div class="ai-chat">
@@ -812,31 +631,6 @@ TARIHIN GWANI</div>
   </form>
 </div>
 
-<script defer>
-function sendToWhatsApp(event) {
-  event.preventDefault();
-
-  const name = document.getElementById("name").value;
-  const state = document.getElementById("state").value;
-  const email = document.getElementById("email").value;
-  const phone = document.getElementById("phone").value;
-  const address = document.getElementById("address").value;
-  const message = document.getElementById("message").value;
-
-  const whatsappNumber = "2347038022646";
-  const text = `Hello Maahadu,%0A%0AName: ${name}%0AState: ${state}%0APhone: ${phone}%0AEmail: ${email || "Not Provided"}%0AAddress: ${address}%0A%0AMessage:%0A${message}`;
-  const url = `https://wa.me/${whatsappNumber}?text=${text}`;
-
-  window.open(url, "_blank");
-}
-</script>
-
-<style>
-@keyframes fadeInUp {
-  from {opacity:0; transform:translateY(20px);}
-  to {opacity:1; transform:translateY(0);}
-}
-</style>
     <footer>
       <div class="arabic">معهد التحفيظ والدراسات القرآنية © 2025</div>
       <div class="dev-info">
@@ -859,7 +653,15 @@ function sendToWhatsApp(event) {
     </footer>
   </div>
   <script defer>
-    // Drawer toggle
+    const playlistId = 'PLNr8jcOcPHelYz2nZ8iHQKRzRAnC2RUZ6';
+    const channelId = 'UCIqYqTi36K3BH5aojZm5nEw';
+    const player = document.getElementById('player');
+    const openOnYT = document.getElementById('openOnYT');
+    const subscribeBtn = document.getElementById('subscribeBtn');
+    player.src = `https://www.youtube.com/embed?listType=playlist&list=${playlistId}&rel=0&modestbranding=1`;
+    openOnYT.href = `https://www.youtube.com/playlist?list=${playlistId}`;
+    subscribeBtn.onclick = () => {window.open(`https://www.youtube.com/channel/${channelId}`, '_blank');};
+    document.addEventListener('keydown', (e) => {if(e.key === 'Tab') document.body.classList.add('show-focus');});
     const hambtn = document.getElementById('hambtn');
     const drawer = document.getElementById('drawer');
     const closeDrawer = document.getElementById('closeDrawer');
@@ -873,35 +675,21 @@ function sendToWhatsApp(event) {
       drawer.style.right = '-100%';
       hambtn.style.display = 'inline-flex';
     });
-
-    // Banner reveal on scroll
     const banners = document.querySelectorAll('.banner');
     const revealOnScroll = (entries, obs) => {
       entries.forEach(e => {
-        if(e.isIntersecting){
-          e.target.classList.add('show');
-        } else {
-          e.target.classList.remove('show');
-        }
+        if(e.isIntersecting){e.target.classList.add('show');} else {e.target.classList.remove('show');}
       });
     };
     const bObserver = new IntersectionObserver(revealOnScroll, {threshold:0.15});
     banners.forEach(b => bObserver.observe(b));
-
-    // General reveal for .reveal elements (right -> left)
     const reveals = document.querySelectorAll('.reveal');
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if(entry.isIntersecting) {
-          entry.target.classList.add('show');
-        } else {
-          entry.target.classList.remove('show');
-        }
+        if(entry.isIntersecting) {entry.target.classList.add('show');} else {entry.target.classList.remove('show');}
       });
     }, {threshold:0.12});
     reveals.forEach(r => io.observe(r));
-
-    // Gallery thumbs
     document.querySelectorAll('.thumbs .thumb').forEach(t => {
       t.addEventListener('click', () => {
         document.querySelectorAll('.thumbs .thumb').forEach(x => x.classList.remove('active'));
@@ -909,42 +697,32 @@ function sendToWhatsApp(event) {
         document.getElementById('mainImg').src = t.dataset.src;
       });
     });
-
-    // WhatsApp Donation Form handler
-    // WhatsApp Donation Form handler document.getElementById('donationForm').addEventListener('submit', function(e){ e.preventDefault(); const name = encodeURIComponent(document.getElementById('d_name').value.trim() || 'Anonymous'); const bank = encodeURIComponent(document.getElementById('d_bank').value.trim() || '-'); const amount = encodeURIComponent(document.getElementById('d_amount').value.trim() || '-'); const time = encodeURIComponent(document.getElementById('d_time').value.trim() || '-'); const note = encodeURIComponent(document.getElementById('d_note').value.trim() || '-'); // Gyara asusun bank din anan const acct = encodeURIComponent('U B A BANK - 2109545998 - Ma,ahaduuz altahfizu waddaratul quraniyyah hubbare ml bello boyi'); const msg = *Donation Confirmation*%0ADonor: ${name}%0ABank: ${bank}%0AAmount: ${amount}%0ATransfer Time: ${time}%0ANote: ${note}%0AAccount: ${acct}; const wa = '2349066776609'; window.open(https://wa.me/${wa}?text=${msg}, '_blank'); });
-// Weekly payment handler -> WhatsApp
-// WhatsApp Donation Form handler
-document.getElementById('donationForm').addEventListener('submit', function(e){
-  e.preventDefault();
-  const name = encodeURIComponent(document.getElementById('d_name').value.trim() || 'Anonymous');
-  const bank = encodeURIComponent(document.getElementById('d_bank').value.trim() || '-');
-  const amount = encodeURIComponent(document.getElementById('d_amount').value.trim() || '-');
-  const time = encodeURIComponent(document.getElementById('d_time').value.trim() || '-');
-  const note = encodeURIComponent(document.getElementById('d_note').value.trim() || '-');
-  // Gyara asusun bank din anan
-  const acct = encodeURIComponent('U B A BANK - 2109545998 - Ma,ahaduuz altahfizu waddaratul quraniyyah hubbare ml bello boyi');
-  const msg = `*Donation Confirmation*%0ADonor: ${name}%0ABank: ${bank}%0AAmount: ${amount}%0ATransfer Time: ${time}%0ANote: ${note}%0AAccount: ${acct}`;
-  const wa = '2347038022646';
-  window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
-});
-
-// Weekly payment handler -> WhatsApp
-document.getElementById('weeklyForm').addEventListener('submit', function(e){
-  e.preventDefault();
-  const student = encodeURIComponent(document.getElementById('w_student').value.trim() || '-');
-  const payer = encodeURIComponent(document.getElementById('w_payer').value.trim() || '-');
-  const state = encodeURIComponent(document.getElementById('w_state').value.trim() || '-');
-  const address = encodeURIComponent(document.getElementById('w_address').value.trim() || '-');
-  const phone = encodeURIComponent(document.getElementById('w_phone').value.trim() || '-');
-  const amount = encodeURIComponent(document.getElementById('w_amount').value.trim() || '-');
-  const start = encodeURIComponent(document.getElementById('w_start').value.trim() || '-');
-  // Gyara asusun bank din anan
-  const acct = encodeURIComponent('Account: U B A BANK - 2109545998 (Ma,ahadu alttahfizu waddarasatul quraniyyah hubbare ML Bello Boyi)');
-  const msg = `*Weekly Payment Request*%0AStudent: ${student}%0APayer: ${payer}%0AState: ${state}%0AAddress: ${address}%0APhone: ${phone}%0AAmount: ${amount}%0AStart: ${start}%0A${acct}`;
-  const wa = '2347038022646';
-  window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
-});
-    // Accordion toggle
+    document.getElementById('donationForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('d_name').value.trim() || 'Anonymous');
+      const bank = encodeURIComponent(document.getElementById('d_bank').value.trim() || '-');
+      const amount = encodeURIComponent(document.getElementById('d_amount').value.trim() || '-');
+      const time = encodeURIComponent(document.getElementById('d_time').value.trim() || '-');
+      const note = encodeURIComponent(document.getElementById('d_note').value.trim() || '-');
+      const acct = encodeURIComponent('U B A BANK - 2109545998 - Ma,ahaduuz altahfizu waddaratul quraniyyah hubbare ml bello boyi');
+      const msg = `*Donation Confirmation*%0ADonor: ${name}%0ABank: ${bank}%0AAmount: ${amount}%0ATransfer Time: ${time}%0ANote: ${note}%0AAccount: ${acct}`;
+      const wa = '2347038022646';
+      window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
+    });
+    document.getElementById('weeklyForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const student = encodeURIComponent(document.getElementById('w_student').value.trim() || '-');
+      const payer = encodeURIComponent(document.getElementById('w_payer').value.trim() || '-');
+      const state = encodeURIComponent(document.getElementById('w_state').value.trim() || '-');
+      const address = encodeURIComponent(document.getElementById('w_address').value.trim() || '-');
+      const phone = encodeURIComponent(document.getElementById('w_phone').value.trim() || '-');
+      const amount = encodeURIComponent(document.getElementById('w_amount').value.trim() || '-');
+      const start = encodeURIComponent(document.getElementById('w_start').value.trim() || '-');
+      const acct = encodeURIComponent('Account: U B A BANK - 2109545998 (Ma,ahadu alttahfizu waddarasatul quraniyyah hubbare ML Bello Boyi)');
+      const msg = `*Weekly Payment Request*%0AStudent: ${student}%0APayer: ${payer}%0AState: ${state}%0AAddress: ${address}%0APhone: ${phone}%0AAmount: ${amount}%0AStart: ${start}%0A${acct}`;
+      const wa = '2347038022646';
+      window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
+    });
     document.querySelectorAll('.accordion-title').forEach(title => {
       title.addEventListener('click', () => {
         const content = title.nextElementSibling;
@@ -952,21 +730,16 @@ document.getElementById('weeklyForm').addEventListener('submit', function(e){
         title.querySelector('span').textContent = content.style.display === 'block' ? '▲' : '▼';
       });
     });
-
-    // AI Assistant function with placeholder API
     async function askAI() {
       const query = document.getElementById('aiQuery').value;
       if (!query) return;
       const responseDiv = document.getElementById('aiResponse');
       responseDiv.innerText = 'Lodi...';
-      // Ka tabbata ka canza "YOUR_XAI_API_KEY_HERE" da key ɗinka na asali don aiki.
       const apiKey = 'YOUR_XAI_API_KEY_HERE'; 
-      
       if(apiKey === 'YOUR_XAI_API_KEY_HERE') {
           responseDiv.innerText = 'Kuskure: Ba a sa API Key ba. Da fatan za a canza apiKey a cikin JavaScript don amfani da AI Chat.';
           return;
       }
-      
       try {
         const response = await fetch('https://api.x.ai/v1/chat/completions', {
           method: 'POST',
@@ -987,16 +760,25 @@ document.getElementById('weeklyForm').addEventListener('submit', function(e){
         responseDiv.innerText = 'Kuskure: Ba a sami amsa ba, duba API key da network.';
       }
     }
-
-    // Ensure drawer sits above images
+    function sendToWhatsApp(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const state = document.getElementById("state").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+      const address = document.getElementById("address").value;
+      const message = document.getElementById("message").value;
+      const whatsappNumber = "2347038022646";
+      const text = `Hello Maahadu,%0A%0AName: ${name}%0AState: ${state}%0APhone: ${phone}%0AEmail: ${email || "Not Provided"}%0AAddress: ${address}%0A%0AMessage:%0A${message}`;
+      const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+      window.open(url, "_blank");
+    }
     drawer.style.zIndex = 2200;
     document.getElementById('hambtn').style.zIndex = 2300;
-
-    // Prevent horizontal scroll (double safety)
     window.addEventListener('resize', () => { 
       document.documentElement.style.overflowX = 'hidden'; 
       document.body.style.overflowX = 'hidden'; 
     });
   </script>
 </body>
-</html>
+ </html>
