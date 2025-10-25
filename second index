@@ -1,0 +1,784 @@
+here<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maahadu - Institute of Qur’an Memorization & Qur’anic Studies</title>
+  <meta name="description" content="Maahadu al tahfizul Quran - Hifz, Tajweed, Tafsir, Character and Modern Education - Sokoto" />
+  <meta name="title" content="Maahadu Ttahfizu Waddarasatul Quraniyyah Hubbare - Sokoto">
+  <meta name="description" content="Maahadu Ttahfizu Waddarasatul Quraniyyah Hubbare – Makarantar Al-Qur’ani ta Sheikh Muhammad Bello Boyi dake Sokoto State, tana koyar da Qur’ani Mai Girma da Tajweed.">
+  <meta name="keywords" content="alqurani, alquraniyyah, attahfizu, addarasat, Islamic school, ml bello boyi, hubbare, sheikh Usman bin Fodio, Sokoto website, Qurani Sokoto, Maahadu school, Maahadu Sokoto, Al-Qurani Tajweed, Hausa Islamic school">
+  <meta name="author" content="Ayuba Abdullahi">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Maahadu Ttahfizu Waddarasatul Quraniyyah - Sokoto">
+  <meta property="og:description" content="Islamic Qur’anic school in Hubbare, Sokoto. Learn Tajweed and Qur’ani recitation under Sheikh Muhammad Bello Boyi.">
+  <meta property="og:image" content="logo.jpg">
+  <meta property="og:url" content="https://maahadu-ttahfizu-waddarasatul-quraniyyah.com">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="mlogo.jpg" type="image/jpeg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Maahadu Ttahfizu Waddarasatul Quraniyyah Hubbare",
+  "description": "Islamic Qur’anic school in Hubbare, Sokoto State, Nigeria – dedicated to teaching the Holy Qur’an and Tajweed.",
+  "url": "https://maahadu-ttahfizu-waddarasatul-quraniyyah.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sokoto State",
+    "addressCountry": "Nigeria"
+  },
+  "founder": "Sheikh Muhammad Bello Boyi",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "School Office",
+    "email": "maahaduschool@gmail.com",
+    "telephone": "+2347038022646"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61582368440099",
+    "https://youtube.com/@maahaduschool",
+    "https://www.tiktok.com/@maahadu.taffizu.h"
+  ]
+}
+  </script>
+  <style>
+    :root{
+      --main-blue: #1e90ff;
+      --accent: #87cefa;
+      --gold: #D4AF37;
+      --aqua: #38BDF8;
+      --card: #ffffff;
+      --muted: #54606a;
+      --shadow: 0 18px 48px rgba(2,6,23,0.08);
+      --maxw:1200px;
+      --radius:14px;
+      --green:#0A5F43;
+      --bg:#FBFBFA;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:linear-gradient(135deg,#f4f7fa,#e9f1fb);color:#10202b;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:18px auto;padding:14px}
+    .top-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+    .brand-left{display:flex;align-items:center;gap:14px}
+    .logo-space{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--card),#eef7ff);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(2,6,23,0.06);border:2px solid rgba(30,144,255,0.12);overflow:hidden}
+    .logo-space img{width:100%;height:100%;object-fit:cover}
+    .school-abbr{font-weight:900;color:var(--main-blue);font-size:20px}
+    .muted-small{color:var(--muted);font-size:13px}
+    .right-tools{display:flex;gap:12px;align-items:center}
+    .phone-call{font-weight:800;color:var(--main-blue)}
+    .hambtn{width:54px;height:54px;border-radius:12px;background:var(--card);display:inline-flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(2,6,23,0.08);border:1px solid rgba(0,0,0,0.06);cursor:pointer;z-index:2300}
+    .hambtn span{display:block;width:24px;height:2px;background:var(--main-blue);position:relative}
+    .hambtn span::before,.hambtn span::after{content:"";position:absolute;left:0;width:24px;height:2px;background:var(--main-blue)}
+    .hambtn span::before{top:-7px} .hambtn span::after{top:7px}
+    #drawer{position:fixed;right:-100%;top:0;width:25%;height:100vh;background:var(--card);box-shadow:-28px 0 80px rgba(2,6,23,0.14);transition:right .34s;padding:20px;z-index:2200;overflow:auto}
+    #drawer .close{background:none;border:0;font-size:22px;cursor:pointer;float:right}
+    #drawer nav{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+    #drawer a{padding:12px 10px;border-radius:10px;font-weight:800;color:var(--main-blue);border:1px solid rgba(0,0,0,0.04);background:linear-gradient(180deg,var(--card),#fbfdff)}
+    #drawer a:hover{background:linear-gradient(90deg,var(--accent),#fff);color:#06263b}
+    .hero{position:relative;border-radius:18px;padding:0;color:white;overflow:hidden;box-shadow:var(--shadow);min-height:380px;display:flex;align-items:center;justify-content:center}
+    .hero-img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.6)}
+    .hero-overlay{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;z-index:3;padding:20px}
+    .hero-card{max-width:980px;text-align:center;color:white}
+    .hero-card .arabic{font-family:"Scheherazade",serif;font-size:22px;color:var(--gold);direction:rtl;font-weight:800;text-shadow:0 4px 16px rgba(0,0,0,0.28)}
+    .hero-card h1{font-size:28px;margin:12px 0 8px;font-weight:900;text-shadow:0 8px 30px rgba(0,0,0,0.45);animation:slideRightIn .9s ease}
+    .hero-card p{max-width:920px;margin:8px auto;color:rgba(255,255,255,0.95);line-height:1.6;animation:fadeInUp 1.2s ease}
+    .hero-buttons{display:flex;gap:12px;justify-content:center;margin-top:12px}
+    @keyframes slideRightIn {from{transform:translateX(80px);opacity:0} to{transform:translateX(0);opacity:1}}
+    @keyframes fadeInUp {from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1}}
+    .trust-row{display:flex;gap:12px;justify-content:center;margin-top:18px;flex-wrap:wrap;z-index:4;position:relative}
+    .trust-card{background:rgba(255,255,255,0.95);padding:12px;border-radius:12px;text-align:center;box-shadow:0 10px 28px rgba(2,6,23,0.06);min-width:180px}
+    .trust-card .num{font-size:20px;font-weight:900;color:var(--main-blue)}
+    .trust-card .label{font-size:13px;color:var(--muted);margin-top:6px}
+    .main-grid{display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:22px}
+    .content-card{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);overflow:hidden}
+    .section-title{display:flex;justify-content:space-between;align-items:end;gap:8px}
+    .section-title h2{margin:0;color:var(--main-blue)}
+    .vip{padding:20px;border-radius:12px;background:linear-gradient(180deg,var(--card),#fbfdff);border-left:6px solid var(--gold);box-shadow:0 12px 36px rgba(2,6,23,0.06)}
+    .vip h3{margin:0 0 8px;color:#0b3a66;font-size:20px}
+    .vip .meta{color:var(--muted);font-size:14px;margin-bottom:12px}
+    .vip p{color:#10202b;line-height:1.7;margin:10px 0;padding-left:12px;border-left:4px solid rgba(30,144,255,0.08)}
+    .vip .sep{display:flex;align-items:center;gap:12px;margin:12px 0}
+    .vip .sep .label{font-weight:900;color:var(--main-blue);min-width:120px}
+    .vip .sep .line{flex:1;height:3px;background:linear-gradient(90deg,var(--main-blue),#e8f6ff);border-radius:6px}
+    .vip .honor{margin-top:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg,#fff9ed,#fff7e6);border:1px solid rgba(212,175,55,0.12);font-weight:800;color:#6b4f00}
+    .accordion {margin-top:12px}
+    .accordion-item {border-bottom:1px solid rgba(0,0,0,0.08)}
+    .accordion-title {cursor:pointer;padding:10px;background:linear-gradient(90deg,var(--aqua),var(--accent));color:white;font-weight:800;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center}
+    .accordion-content {display:none;padding:10px;background:var(--card);line-height:1.8}
+    .banners{display:flex;flex-direction:column;gap:16px;margin-top:16px}
+    .banner{display:flex;gap:14px;align-items:center;background:var(--card);padding:12px;border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,0.06);overflow:hidden}
+    .banner img{width:36%;min-width:220px;height:160px;object-fit:cover;border-radius:10px;transform:translateX(80px);opacity:0;transition:all .7s ease;border:1px solid rgba(0,0,0,0.04)}
+    .banner .info{flex:1;transform:translateX(80px);opacity:0;transition:all .7s ease}
+    .banner.show img,.banner.show .info{transform:translateX(0);opacity:1}
+    .banner h3{color:var(--main-blue);margin:0 0 8px}
+    .banner p{color:var(--muted);line-height:1.6}
+    .banner .btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:10px;font-weight:800;background:linear-gradient(90deg,var(--aqua),var(--accent));color:white;animation:seaWave 4s ease-in-out infinite}
+    @keyframes seaWave {0%{background:linear-gradient(90deg,var(--aqua),var(--accent)); transform:scale(1)} 50%{background:linear-gradient(90deg,var(--accent),var(--aqua)); transform:scale(1.05)} 100%{background:linear-gradient(90deg,var(--aqua),var(--accent)); transform:scale(1)}}
+    .donation{display:flex;gap:12px;align-items:flex-start;margin-top:12px;flex-wrap:wrap}
+    .don-card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(0,0,0,0.04);box-shadow:var(--shadow);min-width:260px}
+    .don-card h4{color:var(--main-blue);margin-top:0}
+    .account{font-weight:900;color:var(--main-blue);font-size:16px;margin:8px 0}
+    .don-note{font-size:14px;color:var(--muted)}
+    .confirm-form input,.confirm-form select,.confirm-form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-top:8px}
+    .confirm-form .submit-ws{background:linear-gradient(90deg,var(--gold),#f0c96b);border:0;padding:10px 14px;border-radius:10px;font-weight:800;color:#06263b;cursor:pointer;margin-top:8px;display:block;width:100%;animation:seaWave 4s ease-in-out infinite}
+    .pay-form input{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-top:8px}
+    .pay-form .submit-ws{background:var(--main-blue);color:white;border:0;padding:10px 12px;border-radius:8px;cursor:pointer;font-weight:800;margin-top:8px;display:block;width:100%;animation:seaWave 4s ease-in-out infinite}
+    .gallery{display:flex;flex-direction:column;gap:10px}
+    .gallery-main{height:260px;border-radius:10px;overflow:hidden;box-shadow:0 12px 30px rgba(2,6,23,0.08)}
+    .gallery-main img{width:100%;height:100%;object-fit:cover;display:block}
+    .thumbs{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap}
+    .thumbs img{width:calc(25% - 6px);height:80px;object-fit:cover;border-radius:8px;cursor:pointer;border:3px solid transparent}
+    .thumbs img.active{border-color:var(--main-blue)}
+    .info-card{background:var(--card);padding:14px;border-radius:12px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.04);margin-bottom:12px}
+    .prompt-btn{display:block;width:100%;text-align:left;padding:10px;border-radius:8px;border:2px solid rgba(30,144,255,0.06);background:transparent;margin-bottom:8px;font-weight:800;color:#ffffff;cursor:pointer;animation:seaWave 4s ease-in-out infinite}
+    .ai-chat {background:var(--card);padding:10px;border-radius:8px}
+    .ai-chat input {width:100%;padding:8px;margin-bottom:8px;border:1px solid rgba(0,0,0,0.08);border-radius:6px}
+    .ai-chat button {background:var(--main-blue);color:white;padding:8px 12px;border:0;border-radius:6px;cursor:pointer}
+    .ai-response {margin-top:10px;color:#10202b;background:transparent;padding:10px;border:1px solid var(--main-blue);border-radius:6px}
+    .spirit-wrap{max-width:980px;margin:18px auto 0;display:flex;flex-direction:column;gap:12px;padding:0 12px}
+    .qbox,.hbox{background:var(--card);color:#10202b;padding:14px;border-radius:10px;box-shadow:0 10px 30px rgba(2,6,23,0.06);border:1px solid rgba(0,0,0,0.04)}
+    .qbox small,.hbox small{display:block;color:var(--muted);margin-top:8px;font-size:13px}
+    footer{margin-top:22px;padding:14px;background:linear-gradient(90deg,#f4f7fa,#e9f1fb);color:#10202b;text-align:center;font-family:"Scheherazade",serif;font-size:18px;font-weight:800}
+    .dev-info{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:8px;font-size:11px}
+    .dev-img{width:40px;height:40px;border-radius:8px;object-fit:cover}
+    .socials{display:flex;justify-content:center;gap:6px;margin-top:8px}
+    .socials img{width:28px;height:28px;border-radius:6px;object-fit:cover}
+    .hidden-login {margin-top: 10px;opacity: 0.2;transition: opacity 0.5s;}
+    .hidden-login:hover {opacity: 1.0;}
+    .hidden-login a {color: var(--gold);text-decoration: none;margin: 0 10px;padding: 5px 10px;border: 1px solid var(--gold);border-radius: 5px;font-size: 14px;font-weight: 700;display: inline-block;}
+    .hidden-login a:hover {background-color: var(--gold);color: #004080;}
+    .reveal{opacity:0;transform:translateX(80px);transition:all .9s ease;will-change:opacity,transform}
+    .reveal.show{opacity:1;transform:translateX(0)}
+    body {margin: 0;padding: 0;box-sizing: border-box;}
+    * {box-sizing: inherit;max-width: 100%;}
+    img, video {width: 100%;height: auto;}
+    .sidebar{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);height:calc(100vh - 80px);overflow:auto}
+    .player-card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06);min-height:360px;display:flex;flex-direction:column}
+    .video-thumb{display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;cursor:pointer}
+    .video-thumb:hover{background:linear-gradient(90deg, rgba(10,95,67,0.03), rgba(0,0,0,0.02))}
+    .video-thumb.active{outline:2px solid var(--gold);background:rgba(250,244,230,0.7)}
+    .video-thumb img{width:110px;height:64px;object-fit:cover;border-radius:6px;flex:0 0 110px}
+    .video-title{font-size:14px;font-weight:600}
+    .video-meta{font-size:12px;color:var(--muted)}
+    .player-frame{width:100%;aspect-ratio:16/9;border-radius:8px;border:0}
+    .player-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .controls{display:flex;gap:8px;align-items:center}
+    .btn{background:var(--green);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+    .link{color:var(--green);text-decoration:none;font-weight:600}
+    .small{font-size:13px;color:var(--muted)}
+    @media (max-width:900px){
+      .hero{min-height:280px}
+      .logo-space{width:76px;height:76px}
+      .banner{flex-direction:column;align-items:flex-start}
+      .banner img{width:100%;height:auto;min-width:0}
+      .main-grid{grid-template-columns:1fr}
+      .thumbs img{height:70px;width:calc(50% - 4px)}
+      #drawer{width:75%}
+    }
+    @media (max-width:1000px){.main-grid{grid-template-columns:1fr}}
+    @media (max-width:980px){
+      .wrap{grid-template-columns:1fr;gap:12px}
+      .sidebar{height:auto;order:2}
+      .player-card{order:1}
+    }
+    @media (max-width: 1024px) {
+      .wrap {width: 95%;}
+    }
+    @media (max-width: 768px) {
+      body {font-size: 16px;}
+      .wrap, nav, main, footer {padding: 10px;}
+      .main-grid {display: block;}
+    }
+    @media (max-width: 480px) {
+      h1, h2, h3 {font-size: 1.2em;}
+      p {font-size: 14px;}
+      button, a {font-size: 14px;padding: 8px 10px;}
+    }
+    @media (min-width: 768px) {
+      .wrap, .section, .info-card, .content {max-width: 1100px;margin: auto;}
+      h1, h2, h3, h4, h5 {text-align: center;}
+      p {line-height: 1.6;}
+    }
+    @media (max-width: 767px) {
+      .wrap, .section, .info-card, .content {padding: 10px;}
+      h1, h2, h3 {font-size: 1.3rem;}
+      footer {text-align: center;}
+    }
+    @keyframes fadeInUp {from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-row">
+      <div class="brand-left">
+        <div class="logo-space" aria-hidden="false">
+          <img src="mlogo.jpg" alt="ML logo" loading="lazy">
+        </div>
+        <div>
+          <div class="school-abbr">MTAQ</div>
+          <div class="muted-small">Maahadu al tahfizul Quran and Qur'anic Studies</div>
+        </div>
+      </div>
+      <div class="right-tools">
+        <div class="phone-call">Call: <a href="tel:+2347038022646"> +2347038022646
+       08037371836 </a></div>
+        <div class="hambtn" id="hambtn" aria-label="Open menu"><span></span></div>
+      </div>
+    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDqOtlXV51IXsNdQy_v9gkbqlnHETqUHkOUgVCei4ZJauVNQ/viewform?usp=header" style="display: inline-block; padding: 12px 20px; font-size: 18px; color: white; background-color: #007bff; text-decoration: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, transform 0.3s; margin: 10px 0;">Rate Us ⭐⭐⭐ ⭐ ⭐</a>
+
+    <aside id="drawer" aria-hidden="true">
+      <button class="close" id="closeDrawer">✕</button>
+      <nav>
+        <a href="aboutus.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="tearchers.html">Teachers</a>
+        <a href="mission.html">Mission</a>
+        <a href="saibgallery.html">Gallery</a>
+        <a href="admission.html">Admissions</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </aside>
+
+    <header class="hero" id="hero">
+      <img src="mkaima.jpg" alt="Hero image" class="hero-img" loading="lazy">
+      <div class="hero-overlay">
+        <div class="hero-card">
+          <div class="arabic">معهد التحفيظ والدراسات القرآنية</div>
+          <div class="english-name" style="font-weight:900;margin-top:6px;color:#fff">Institute of Qur’an Memorization & Qur’anic Studies</div>
+          <h1 class="reveal">.معهد التحفيظ والدراسات القرآنية</h1>
+          <p class="reveal">We combine traditional Qur'anic education (Hifz, Tajweed, Tafsir) .</p>
+          <div class="hero-buttons reveal" style="margin-top:12px;display:flex;gap:12px;justify-content:center">
+            <a href="admission.html" class="btn" style="background:linear-gradient(90deg,var(--gold),#f0c96b);color:#06263b;padding:10px 14px;border-radius:10px;font-weight:900;animation:seaWave 4s ease-in-out infinite">Apply Now</a>
+            <a href="admission.html" class="btn" style="background:linear-gradient(90deg,var(--main-blue),var(--accent));color:#fff;padding:10px 14px;border-radius:10px;font-weight:900;animation:seaWave 4s ease-in-out infinite">Admission Info</a>
+          </div>
+          <div class="trust-row" style="margin-top:18px">
+            <div class="trust-card">
+              <div class="num">500+</div>
+              <div class="label">Trusted by Parents</div>
+            </div>
+            <div class="trust-card">
+              <div class="num">12+</div>
+              <div class="label">Years of Service</div>
+            </div>
+            <div class="trust-card">
+              <div class="num">150+</div>
+              <div class="label">Students awaiting Walima</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="spirit-wrap" style="margin-top:18px">
+      <div class="qbox reveal">
+        <strong>Qur'an Verse</strong><br> وَقُل رَّبِّ زِدْنِي عِلْمًا
+
+“And say: My Lord! Increase me in knowledge.” — <small>Surah Ta-Ha 20:114</small>
+      </div>
+      <div class="hbox reveal">
+        <strong>Hadith</strong><br> 
+        طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَىٰ كُلِّ مُسْلِمٍ
+
+
+“Seeking knowledge is obligatory upon every Muslim.” — <small>Hadith</small>
+      </div>
+      
+            
+    </div>
+    
+
+    <section class="content-card vip reveal" id="history" style="margin-top:18px">
+      <div class="section-title">
+        <h2>History of Sheikh Muhammad Bello Boyi</h2>
+        <div class="muted-small">Abu Fatima, Gwani — Teacher & Hausa Scholar</div>
+      </div>
+      <div style="position:relative;margin-top:12px">
+        <img src="mbello.jpg" alt="Sheikh Muhammad Bello Boyi" style="width:100%;height:auto;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.12)" loading="lazy">
+        <div style="position:absolute;left:20px;bottom:18px;background:rgba(2,6,23,0.55);color:#fff;padding:10px 14px;border-radius:10px;font-weight:800">
+          History of Sheikh Muhammad Bello Boyi
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:18px">
+        <h3 style="color:var(--main-blue);margin-bottom:8px">🎥 Honor Video</h3>
+        <video controls poster="mcover1.jpg" style="width:100%;max-width:860px;border-radius:10px;box-shadow:0 8px 26px rgba(0,0,0,0.12)">
+          <source src="mbellovideo1.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+        <div style="color:var(--muted);margin-top:8px">
+
+TARIHIN GWANI</div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-title">👶 Bith introduction Ranar haifuwa  <span>▼</span></div>
+          <div class="accordion-content">
+            <p>Sheikh Muhammad Bello Boyi (Abu Fatima, Gwani) was born in Sokoto, Ubandoma area, near Kofar Atiku, in 1389H (1968AD). He is 56 years old.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">📖 Qur'an & Early Education <span>▼</span></div>
+          <div class="accordion-content">
+            <p>From a young age, he showed love for the Qur'an; he completed its reading at age 11. At age 24, he memorized the entire Qur'an with its interpretation (Tafseer). This became the foundation of his pursuit of knowledge and teaching throughout his life.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">👨‍🏫 Teachers <span>▼</span></div>
+          <div class="accordion-content">
+            <p>He started studying under his father Malam Boyi, then continued with other great scholars including:</p>
+            <ul>
+              <li>Malam Ummaru Babba (Rijiyar Zaure)</li>
+              <li>Malam Hussaini (Kofar Atiku)</li>
+              <li>Malam Muhammad Gwandu</li>
+              <li>Malam Ibrahim Bakane</li>
+              <li>Malam Muhammadu Gigani</li>
+              <li>Sheikh Sulaiman Al-Misri</li>
+              <li>Sheikh Abdullahi Zawawey Al-Makki</li>
+              <li>Sheikh Muhammad Al-Misri</li>
+              <li>and others.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">🏫 Teaching Centers <span>▼</span></div>
+          <div class="accordion-content">
+            <p>Sheikh Bello Boyi established centers in Sokoto, Gusau, Birnin Kebbi, Gwandu, and Jega. In Sokoto, there are several: His home in Ubandoma (Markazul Qur’an wal Ulum), Hubbaren Shehu, Imam Shadibi Mosque (Nakasari), Sultan Muhammad Bello Mosque (Kanwuri), Malam Aliu Gidan Kanawa's house, Malam Bello Gyal Gyal's house, Imam Nafi’u's house, and others.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">📚 Students & Memorizers <span>▼</span></div>
+          <div class="accordion-content">
+            <p>At his Hubbaren Shehu center, over 500 students have memorized the Qur'an in various fields — children, youth, and elders. Currently, more than 150 are awaiting their completion ceremony (Walima).</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">🕌 Tafseer & Imamate <span>▼</span></div>
+          <div class="accordion-content">
+            <p>Sheikh conducts Tafseer lessons every Sunday morning at his home in Ubandoma. He is also the Friday Imam at Shadibi Mosque (Nakasari).</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">🌟 Character & Recognition <span>▼</span></div>
+          <div class="accordion-content">
+            <p>Sheikh is known for his wisdom, understanding, humility, and good dealings. His words and actions have influenced thousands in Nigeria and beyond.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">🎓 Honors <span>▼</span></div>
+          <div class="accordion-content">
+            <p>On Saturday, April 20, 2024, Usmanu Danfodiyo University, Sokoto awarded him an honorary Doctor of Letters (Honoris Causa) for his contributions to religion, education, and humanity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="main-grid">
+      <div>
+        <div class="banners" id="banners" style="margin-top:18px">
+          <div class="banner reveal">
+            <img src="mlogo.jpg" alt="About Us" loading="lazy">
+            <div class="info">
+              <h3>About Us — Maahadu</h3>
+              <p>🕌 Maahadu combines Qur'anic upbringing with modern education — we offer lessons in Hifz, Tajweed, Tafsir, and modern studies to build students with excellence and strength.</p>
+              <a class="btn" href="aboutus.html">Read About Us →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mkaima1.jpg" alt="Courses" loading="lazy">
+            <div class="info">
+              <h3>Courses — Hifz & More</h3>
+              <p>📚 We offer programs in Hifz (memorization), Tajweed, Qira'at, Tafsir, and modern studies. Goal: Provide quality education and good character.</p>
+              <a class="btn" href="courses.html">View Courses →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mteachers1.jpg" alt="Teachers" loading="lazy">
+            <div class="info">
+              <h3>Our Teachers</h3>
+              <p>👨‍🏫 Experienced scholars in Qur'anic teaching and religion — expertise and compassion in instruction.</p>
+              <a class="btn" href="tearchers.html">Meet The Teachers →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mmission.jpg" alt="Mission" loading="lazy">
+            <div class="info">
+              <h3>Mission & Vision</h3>
+              <p>🌟 We aim to nurture students with excellent Qur'anic knowledge and modern technology for community benefit.</p>
+              <a class="btn" href="mission.html">Our Mission →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mkaima.jpg" alt="Admission" loading="lazy">
+            <div class="info">
+              <h3>Admission</h3>
+              <p>✍️ Join Maahadu now — we welcome new students. Send questions or visit the admission page for details.</p>
+              <a class="btn" href="admission.html">Apply Now →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mdonation.jpg" alt="Contact" loading="lazy">
+            <div class="info">
+              <h3>Contact</h3>
+              <p>📞 Contact us for inquiries, visits, or support — we're here to help.</p>
+              <a class="btn" href="contact.html">Contact Us →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mnews.jpg" alt="News" loading="lazy">
+            <div class="info">
+              <h3>News & Events</h3>
+              <p>📰 Latest from Maahadu: Walima, competitions, educational seminars, and announcements.</p>
+              <a class="btn" href="news.html">Latest News →</a>
+            </div>
+          </div>
+          <div class="banner reveal">
+            <img src="mgallery.jpg" alt="Gallery" loading="lazy">
+            <div class="info">
+              <h3>Gallery</h3>
+              <p>📸 Photos from school activities — Walima, lesson reviews, and Hifz completion celebrations.</p>
+              <a class="btn" href="saibgallery.html">Open Gallery →</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="content-card reveal" id="courses-short" style="margin-top:18px">
+          <div class="section-title">
+            <h2>Our Courses</h2>
+            <div class="muted-small">Qur'an & Modern Education</div>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+            <div style="flex:1;min-width:220px" class="content-card">
+              <h4 style="color:var(--main-blue)">Hifz (Memorization)</h4>
+              <p style="color:var(--muted)">Program for memorizing the Qur'an with teacher guidance, study schedules, and exams.</p>
+              <a href="courses.html" style="font-weight:800;color:var(--main-blue);animation:seaWave 4s ease-in-out infinite">Learn more →</a>
+            </div>
+            <div style="flex:1;min-width:220px" class="content-card">
+              <h4 style="color:var(--main-blue)">Tajweed & Qira'at</h4>
+              <p style="color:var(--muted)">Learning Tajweed rules and different Qira'at recitations.</p>
+              <a href="courses.html" style="font-weight:800;color:var(--main-blue);animation:seaWave 4s ease-in-out infinite">Learn more →</a>
+            </div>
+            <div style="flex:1;min-width:220px" class="content-card">
+              <h4 style="color:var(--main-blue)">Tafsir & Islamic Studies</h4>
+              <p style="color:var(--muted)">Interpretation, Aqidah, Fiqh basics, and character building.</p>
+              <a href="courses.html" style="font-weight:800;color:var(--main-blue);animation:seaWave 4s ease-in-out infinite">Learn more →</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-card reveal" id="support" style="margin-top:18px">
+          <div class="section-title">
+            <h2>SUPPORT & DONATION</h2>
+            <div class="muted-small"> build the school and support students</div>
+          </div>
+          <div class="donation" style="margin-top:12px">
+            <div class="don-card">
+              <h4>💝 BANK DETAILS</h4>
+              <div class="account">🏦  U B A BANK — <strong>2109545998</strong></div>
+              <div class="don-note">Account Name: <strong>Ma,ahaduuz altahfizu waddaratul quraniyyah hubbare ml bello boyi</strong></div>
+              <p style="margin-top:8px;color:var(--muted)">We appreciate your help — every contribution supports study materials, scholarships, and student care.</p>
+              <p style="margin-top:10px">📱 Quick WhatsApp: <a href="https://wa.me/2347038022646 ?text=I%20want%20to%20support%20the%20school" target="_blank" style="color:var(--main-blue);font-weight:800;animation:seaWave 4s ease-in-out infinite">WhatsApp Admin</a></p>
+            </div>
+            <div class="don-card">
+              <h4>Confirm Donation (WhatsApp)</h4>
+              <form class="confirm-form" id="donationForm">
+                <label>Your Name (Full name)</label>
+                <input type="text" id="d_name" placeholder="Name" required>
+                <label>Bank</label>
+                <input type="text" id="d_bank" placeholder="Bank name (e.g., UBA)">
+                <label>Amount (NGN)</label>
+                <input type="text" id="d_amount" placeholder="e.g., 5000" required>
+                <label>Transfer Time (date & time)</label>
+                <input type="datetime-local" id="d_time" required>
+                <label>Note (optional)</label>
+                <textarea id="d_note" rows="3" placeholder="Payment note (optional)"></textarea>
+                <button type="submit" class="submit-ws">Send via WhatsApp</button>
+              </form>
+              <small style="color:var(--muted)">This will open WhatsApp with confirmation message. We will verify in records.</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-card reveal" id="weekly" style="margin-top:18px">
+          <div class="section-title">
+            <h2>ZAKA IYA BIYAN KUDIN SATI TA WANNAN ACCOUNT </h2>
+            <div class="muted-small">Pay weekly fees for student</div>
+          </div>
+          <div class="don-card" style="margin-top:12px">
+            <h4>💳 BANK DETAILS DOMIN BIYAN KUDIN SATI </h4>
+            <div class="account">🏦 U B A BANK— <strong>2109545998</strong></div>
+            <div class="don-note">Account Name: <strong>Ma,ahadu alttahfizu waddarasatul quraniyyah hubbare ML Bello Boyi </strong></div>
+          </div>
+          <div style="margin-top:10px">
+            <form id="weeklyForm" class="pay-form">
+              <label>Student Name</label>
+              <input type="text" id="w_student" placeholder="Student's name" required>
+              <label>Payer Name</label>
+              <input type="text" id="w_payer" placeholder="Your name (if payer)" required>
+              <label>State</label>
+              <input type="text" id="w_state" placeholder="e.g., Sokoto" required>
+              <label>Address</label>
+              <input type="text" id="w_address" placeholder="Address / residence" required>
+              <label>Phone Number</label>
+              <input type="tel" id="w_phone" placeholder="Phone (e.g., 0906...)" required>
+              <label>Amount (NGN)</label>
+              <input type="text" id="w_amount" placeholder="e.g., 2000" required>
+              <label>Start Date</label>
+              <input type="datetime-local" id="w_start" required>
+              <button type="submit" class="submit-ws">Send Payment Info (WhatsApp)</button>
+            </form>
+            <small style="color:var(--muted)">This will open WhatsApp to send details to admin.</small>
+          </div>
+        </section>
+
+        <section class="content-card reveal" id="gallery" style="margin-top:18px">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <div class="muted-small">Photos from activities and Walima</div>
+          </div>
+          <div class="gallery" style="margin-top:12px">
+            <div class="gallery-main">
+              <img id="mainImg" src="mgraduation.jpg" alt="Main gallery image" loading="lazy">
+            </div>
+            <div style="font-weight:800;margin-top:8px;color:var(--main-blue)">Graduation Day — Proud Huffaz</div>
+            <div style="color:var(--muted);margin-bottom:8px">Joy and thanks to all contributors.</div>
+            <div class="thumbs">
+              <img src="mdonation.jpg" alt="Graduation" class="thumb active" data-src="mdonation.jpg" loading="lazy">
+              <img src="mlogo.jpg" alt="Image 2" class="thumb" data-src="mlogo.jpg" loading="lazy">
+              <img src="mbello.jpg" alt="Gallery" class="thumb" data-src="mbello.jpg" loading="lazy">
+              <img src="mquran.jpg" alt="Gallery Image 1" class="thumb" data-src="mquran.jpg" loading="lazy">
+              <img src="mgraduation.jpg" alt="Gallery Image 2" class="thumb" data-src="mgraduation.jpg" loading="lazy">
+              <img src="mdonation.jpg" alt="Gallery Image 3" class="thumb" data-src="mdonation.jpg" loading="lazy">
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <aside>
+        <div class="wrap" aria-live="polite">
+          <aside class="sidebar" aria-label="Video list">
+            <h3 style="margin:0 0 10px;color:var(--green)">Malamai da Darussa</h3>
+            <p class="small">KALLI DARUSSA KAI TSAYE A NAN . DUK VIDEOS SUNA YOU TUBE CHANNEL NAMU.</p>
+
+            <div id="list">
+              <p class="small">Bidiyo suna lodi a cikin mai kunnawa (player). Yi amfani da ikon player don kallo.</p>
+            </div>
+
+            <hr style="margin:12px 0;border:none;border-top:1px solid rgba(11,90,67,0.06)">
+
+            <div style="font-size:13px;color:var(--muted)">
+              <div><strong>Manufofin Upload:</strong> Malamai masu izini ne kawai ke da damar ɗora bidiyo a wannan channel.</div>
+              <div style="margin-top:6px">Idan ka ga bidiyo baya nan, ka tuntuɓi mai gudanarwa.</div>
+            </div>
+          </aside>
+
+          <main class="player-card" role="main">
+            <div class="player-header">
+              <div>
+                <div id="nowTitle" style="font-weight:800;color:var(--green);font-size:18px">KARATUTTUKAN GWANI MALLAM BELLO BOYI </div>
+                <div id="nowMeta" class="small" style="margin-top:6px">KARATU DAGA MAAHADU CHANNEL </div>
+                <p> </p>
+              </div>
+              <p> </p>
+              <div class="controls">
+                <a id="openOnYT" class="link" href="https://www.youtube.com/playlist?list=PLNr8jcOcPHelYz2nZ8iHQKRzRAnC2RUZ6" target="_blank" rel="noopener"><p> </p>
+                 ↗</a>
+                <button id="subscribeBtn" class="btn" onclick="window.open('https://www.youtube.com/channel/UCIqYqTi36K3BH5aojZm5nEw','_blank')">Subscribe
+                NAN NE YOU TUBE CHANNEL</button>
+              </div>
+            </div>
+
+            <div style="flex:1">
+              <iframe id="player" class="player-frame" src="https://www.youtube.com/embed?listType=playlist&list=PLNr8jcOcPHelYz2nZ8iHQKRzRAnC2RUZ6&rel=0&modestbranding=1" title="Video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
+              <div class="small">ZAKU IYA CHANJA VIDEO A TV SCREEN .</div>
+              <div class="small">KUNA KALLUN KARATTUKAN DAGA CHANNEL DINMU .</div>
+            </div>
+          </main>
+        </div>
+
+        <div class="info-card reveal">
+          <h4>Ask AI Assistant</h4>
+          <div class="ai-chat">
+            <input type="text" id="aiQuery" placeholder="Ask anything...">
+            <button onclick="askAI()">Send</button>
+            <a href="chat.html" class="chat-btn" style="display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:linear-gradient(90deg,var(--main-blue),var(--accent));color:#fff;font-weight:800;text-decoration:none;box-shadow:0 8px 18px rgba(2,6,23,0.08);margin-top:10px;">💬 (DANNA DOMIN MAGANA DA MAAHADU AI) (CHAT WITH AI)</a>
+
+            <div id="aiResponse" class="ai-response"></div>
+          </div>
+        </div> 
+<div class="info-card reveal" style="background:linear-gradient(180deg,#eaf6ff,#cde8ff);padding:20px;border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,0.1);animation:fadeInUp 1s ease;">
+  <h4 style="color:#003366;text-align:center;margin-bottom:10px;">SEND DIRECT MESSAGE  (WhatsApp)</h4>
+  <p class="muted-small" style="text-align:center;color:#555;">Send quick message to school admin via WhatsApp:</p>
+
+  <form id="contactForm" onsubmit="sendToWhatsApp(event)" style="display:flex;flex-direction:column;gap:10px;">
+    <input type="text" id="name" placeholder="Full Name" required style="padding:10px;border:1px solid #ccc;border-radius:8px;">
+    <input type="text" id="state" placeholder="State" required style="padding:10px;border:1px solid #ccc;border-radius:8px;">
+    <input type="email" id="email" placeholder="Email (optional)" style="padding:10px;border:1px solid #ccc;border-radius:8px;">
+    <input type="tel" id="phone" placeholder="Phone Number" required style="padding:10px;border:1px solid #ccc;border-radius:8px;">
+    <input type="text" id="address" placeholder="Address" required style="padding:10px;border:1px solid #ccc;border-radius:8px;">
+    <textarea id="message" placeholder="Type your message..." required style="padding:10px;border:1px solid #ccc;border-radius:8px;height:100px;"></textarea>
+
+    <button type="submit" style="background:linear-gradient(90deg,#007bff,#00c3ff);color:#fff;padding:12px;border:none;border-radius:8px;font-weight:bold;cursor:pointer;transition:0.3s;">Send Message</button>
+  </form>
+</div>
+
+    <footer>
+      <div class="arabic">معهد التحفيظ والدراسات القرآنية © 2025</div>
+      <div class="dev-info">
+       
+        <span>Developed by Ayyub</span>
+        <span>📞 09066851341</span>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61582368440099" target="_blank"><img src="mficon.jpg" alt="facebook" loading="lazy"></a>
+        <a href="https://wa.me/2349066776609" target="_blank"><img src="mwicon.jpg" alt="whatsapp" loading="lazy"></a>
+        <a href="https://www.tiktok.com/@maahadu.taffizu.h?_r=1&_d=elga91h575adef&sec_uid=MS4wLjABAAAAogE2pB1rAV89ZdtWBIl4Kp_Xq8ArnbIEF8vLNeOFeQh514ErgX6PcmKPlnycISeo&share_author_id=7561946771410125844&sharer_language=en&source=h5_m&u_code=f01aj0d8mdjjb6&timestamp=1760653845&user_id=7561946771410125844&sec_user_id=MS4wLjABAAAAogE2pB1rAV89ZdtWBIl4Kp_Xq8ArnbIEF8vLNeOFeQh514ErgX6PcmKPlnycISeo&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7532393856550913799&share_link_id=a95989c1-fd6c-4675-9591-af9fa42dbd4d&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1" target="_blank"><img src="mticon.jpg" alt="tiktok" loading="lazy"></a>
+        <a href="https://instagram.com/maahadu" target="_blank"><img src="miicon.jpg" alt="instagram" loading="lazy"></a>
+        <a href="https://x.com/maahadu" target="_blank"><img src="mxicon.jpg" alt="x" loading="lazy"></a>
+      </div>
+
+      <div class="hidden-login">
+          <a href="admin-login.html" title="Admin Access">Admin Panel</a>
+          <a href="teachers_login.html" title="Teacher Access">Teacher Dashboard</a>
+      </div>
+    </footer>
+  </div>
+  <script defer>
+    const playlistId = 'PLNr8jcOcPHelYz2nZ8iHQKRzRAnC2RUZ6';
+    const channelId = 'UCIqYqTi36K3BH5aojZm5nEw';
+    const player = document.getElementById('player');
+    const openOnYT = document.getElementById('openOnYT');
+    const subscribeBtn = document.getElementById('subscribeBtn');
+    player.src = `https://www.youtube.com/embed?listType=playlist&list=${playlistId}&rel=0&modestbranding=1`;
+    openOnYT.href = `https://www.youtube.com/playlist?list=${playlistId}`;
+    subscribeBtn.onclick = () => {window.open(`https://www.youtube.com/channel/${channelId}`, '_blank');};
+    document.addEventListener('keydown', (e) => {if(e.key === 'Tab') document.body.classList.add('show-focus');});
+    const hambtn = document.getElementById('hambtn');
+    const drawer = document.getElementById('drawer');
+    const closeDrawer = document.getElementById('closeDrawer');
+    hambtn.addEventListener('click', () => {
+      const open = drawer.style.right === '0px';
+      drawer.style.right = open ? '-100%' : '0';
+      drawer.setAttribute('aria-hidden', open ? 'true' : 'false');
+      hambtn.style.display = open ? 'inline-flex' : 'none';
+    });
+    if(closeDrawer) closeDrawer.addEventListener('click', () => {
+      drawer.style.right = '-100%';
+      hambtn.style.display = 'inline-flex';
+    });
+    const banners = document.querySelectorAll('.banner');
+    const revealOnScroll = (entries, obs) => {
+      entries.forEach(e => {
+        if(e.isIntersecting){e.target.classList.add('show');} else {e.target.classList.remove('show');}
+      });
+    };
+    const bObserver = new IntersectionObserver(revealOnScroll, {threshold:0.15});
+    banners.forEach(b => bObserver.observe(b));
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {entry.target.classList.add('show');} else {entry.target.classList.remove('show');}
+      });
+    }, {threshold:0.12});
+    reveals.forEach(r => io.observe(r));
+    document.querySelectorAll('.thumbs .thumb').forEach(t => {
+      t.addEventListener('click', () => {
+        document.querySelectorAll('.thumbs .thumb').forEach(x => x.classList.remove('active'));
+        t.classList.add('active');
+        document.getElementById('mainImg').src = t.dataset.src;
+      });
+    });
+    document.getElementById('donationForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('d_name').value.trim() || 'Anonymous');
+      const bank = encodeURIComponent(document.getElementById('d_bank').value.trim() || '-');
+      const amount = encodeURIComponent(document.getElementById('d_amount').value.trim() || '-');
+      const time = encodeURIComponent(document.getElementById('d_time').value.trim() || '-');
+      const note = encodeURIComponent(document.getElementById('d_note').value.trim() || '-');
+      const acct = encodeURIComponent('U B A BANK - 2109545998 - Ma,ahaduuz altahfizu waddaratul quraniyyah hubbare ml bello boyi');
+      const msg = `*Donation Confirmation*%0ADonor: ${name}%0ABank: ${bank}%0AAmount: ${amount}%0ATransfer Time: ${time}%0ANote: ${note}%0AAccount: ${acct}`;
+      const wa = '2347038022646';
+      window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
+    });
+    document.getElementById('weeklyForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const student = encodeURIComponent(document.getElementById('w_student').value.trim() || '-');
+      const payer = encodeURIComponent(document.getElementById('w_payer').value.trim() || '-');
+      const state = encodeURIComponent(document.getElementById('w_state').value.trim() || '-');
+      const address = encodeURIComponent(document.getElementById('w_address').value.trim() || '-');
+      const phone = encodeURIComponent(document.getElementById('w_phone').value.trim() || '-');
+      const amount = encodeURIComponent(document.getElementById('w_amount').value.trim() || '-');
+      const start = encodeURIComponent(document.getElementById('w_start').value.trim() || '-');
+      const acct = encodeURIComponent('Account: U B A BANK - 2109545998 (Ma,ahadu alttahfizu waddarasatul quraniyyah hubbare ML Bello Boyi)');
+      const msg = `*Weekly Payment Request*%0AStudent: ${student}%0APayer: ${payer}%0AState: ${state}%0AAddress: ${address}%0APhone: ${phone}%0AAmount: ${amount}%0AStart: ${start}%0A${acct}`;
+      const wa = '2347038022646';
+      window.open(`https://wa.me/${wa}?text=${msg}`, '_blank');
+    });
+    document.querySelectorAll('.accordion-title').forEach(title => {
+      title.addEventListener('click', () => {
+        const content = title.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        title.querySelector('span').textContent = content.style.display === 'block' ? '▲' : '▼';
+      });
+    });
+    async function askAI() {
+      const query = document.getElementById('aiQuery').value;
+      if (!query) return;
+      const responseDiv = document.getElementById('aiResponse');
+      responseDiv.innerText = 'Lodi...';
+      const apiKey = 'YOUR_XAI_API_KEY_HERE'; 
+      if(apiKey === 'YOUR_XAI_API_KEY_HERE') {
+          responseDiv.innerText = 'Kuskure: Ba a sa API Key ba. Da fatan za a canza apiKey a cikin JavaScript don amfani da AI Chat.';
+          return;
+      }
+      try {
+        const response = await fetch('https://api.x.ai/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: 'grok-4',
+            messages: [{ role: 'user', content: query }],
+            temperature: 0.7,
+            max_tokens: 1024
+          })
+        });
+        const data = await response.json();
+        responseDiv.innerText = data.choices[0].message.content;
+      } catch (error) {
+        responseDiv.innerText = 'Kuskure: Ba a sami amsa ba, duba API key da network.';
+      }
+    }
+    function sendToWhatsApp(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const state = document.getElementById("state").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+      const address = document.getElementById("address").value;
+      const message = document.getElementById("message").value;
+      const whatsappNumber = "2347038022646";
+      const text = `Hello Maahadu,%0A%0AName: ${name}%0AState: ${state}%0APhone: ${phone}%0AEmail: ${email || "Not Provided"}%0AAddress: ${address}%0A%0AMessage:%0A${message}`;
+      const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+      window.open(url, "_blank");
+    }
+    drawer.style.zIndex = 2200;
+    document.getElementById('hambtn').style.zIndex = 2300;
+    window.addEventListener('resize', () => { 
+      document.documentElement.style.overflowX = 'hidden'; 
+      document.body.style.overflowX = 'hidden'; 
+    });
+  </script>
+</body>
+ </html>
